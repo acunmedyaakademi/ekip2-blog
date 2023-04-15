@@ -67,3 +67,7 @@ C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\obj\Debug\net6.0\scopedcss\
 C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\obj\Debug\net6.0\filmblogu.csproj.CopyComplete
 C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\obj\Debug\net6.0\filmblogu.genruntimeconfig.cache
 C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\obj\Debug\net6.0\ref\filmblogu.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\AspNetCore.ReCaptcha.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\nl\AspNetCore.ReCaptcha.resources.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\obj\Debug\net6.0\filmblogu.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\Newtonsoft.Json.dll

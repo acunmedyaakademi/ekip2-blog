@@ -25,9 +25,22 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult BlogArticle()
+    public IActionResult Contact()
     {
         return View();
+    }
+    public IActionResult BlogArticle()
+    {
+        bool IsIn;
+        if (HttpContext.Session.GetString("Login") == null)
+        {
+            IsIn= true;
+        }
+        else
+        {
+            IsIn = false;
+        }
+        return View(IsIn);
     }
     public IActionResult Studio()
     {

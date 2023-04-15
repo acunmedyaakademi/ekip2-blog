@@ -1,4 +1,5 @@
-﻿using BlogAppADO.DataAccess;
+﻿using AspNetCore.ReCaptcha;
+using BlogAppADO.DataAccess;
 using filmblog.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +7,7 @@ namespace filmblogu.Controllers
 {
     public class CommentController : Controller
     {
+        [ValidateReCaptcha]
         [HttpPost]
         public IActionResult AddComment(Comment comment)
         {

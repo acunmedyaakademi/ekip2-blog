@@ -1,6 +1,5 @@
 ﻿using BlogAppADO.DataAccess;
 using filmblogu.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace filmblog.Controllers
@@ -21,12 +20,11 @@ namespace filmblog.Controllers
             if(user is null)
                 return Content("Kullanıcı Adı veya Şifre Yanlış");
 
-            if (!user.MailConfirmed || user.MailConfirmed)
+            if (!user.MailConfirmed)
                 return Content("mailini onayla");
 
-
             HttpContext.Session.SetString("Login", user.RoleId.ToString());
-            return Content("Giriş Başarılı");
+            return RedirectToAction("index","home");
         }
     }
 }

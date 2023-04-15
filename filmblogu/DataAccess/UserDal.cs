@@ -171,7 +171,7 @@ namespace BlogAppADO.DataAccess
                 {
                     LoginUser userItem = new LoginUser();
                     connection.Open();
-                    var command = new SqlCommand("SELECT id, mail_confirmed, name, mail, rol_id FROM Users WHERE Email = @email AND password = @password and Password = @password", connection);
+                    var command = new SqlCommand("SELECT id, mail_confirmed, name, mail, rol_id FROM Users WHERE mail = @email AND password = @password", connection);
                     command.Parameters.AddWithValue("@email", model.Email);
                     command.Parameters.AddWithValue("@password", model.Password);
                     var reader = command.ExecuteReader();
@@ -182,7 +182,7 @@ namespace BlogAppADO.DataAccess
                         userItem.MailConfirmed = reader.GetBoolean(1);
                         userItem.Name = reader.GetString(2);
                         userItem.Mail = reader.GetString(3);
-                        userItem.RoleId = reader.GetInt16(4);
+                        userItem.RoleId = reader.GetInt32(4);
 
                         return userItem;
                     }

@@ -1,6 +1,8 @@
-﻿@{
+﻿@using AspNetCore.ReCaptcha;
+@{
     ViewData["Title"] = "Article.";
 }
+@model bool
 
 <!--
     START: Main Page Content
@@ -64,7 +66,7 @@
 
                     <!-- START: Comments -->
                     <div class="nk-comments" id="comments">
-                        <h3 class="text-main">Comments</h3>
+                        <h3 class="text-main">Yorumlar</h3>
 
                         <!-- START: Comment -->
                         <div class="nk-comment">
@@ -72,32 +74,41 @@
                                 <a href="#"><img src="assets/images/avatar-2.jpg" alt=""></a>
                             </div>
                             <div class="nk-comment-meta">
-                                <div class="nk-comment-name"><a href="#">Kurt Tucker</a></div>
+                                <div class="nk-comment-name">Kurt Tucker</div>
                                 <div class="nk-comment-date">20 September, 2016</div>
-                                <div class="nk-comment-reply"><a href="#">Reply</a></div>
                             </div>
                             <div class="nk-comment-text">
                                 <p>Of. Lesser it good moved tree under living male under day The evening. Waters creeping gathered give also grass beginning.</p>
                             </div>
                         </div>
                         <!-- END: Comment -->
-                        <!-- START: Comment -->
-                        
-                        <!-- END: Comment -->
                     </div>
-                    <!-- END: Comments -->
                     <!-- START: Reply -->
-                    <div class="nk-reply">
-                        <h3 class="text-main">Yorumla</h3>
-                        <form asp-action="addcomment" asp-controller="comment" class="nk-form">
-                            <textarea class="form-control" name="thecomment" rows="1" placeholder="Comment"></textarea>
-                            <input type="number" class="form-control" name="UserId" placeholder="Your Name">
-                            <input type="number" class="form-control" name="FilmId" placeholder="Your Email">
-                            <button class="nk-form-btn text-main">Gönder</button>
-                            <p>@ViewBag.Comment</p>
-                        </form>
-                        <div class="nk-gap-2"></div>
-                    </div>
+                    @if (Model)
+                    {
+                        <div class="nk-reply">
+                            <h3 class="text-main">Yorumla</h3>
+                                <input  readonly class="form-control" value="Giriş Yapmadan Yorum Yapamazsınız" name="UserId" placeholder="Your Name">
+                            <button class="nk-form-btn text-main"> <a href="/login">Giriş Yap</a> </button>
+                            <div class="nk-gap-2"></div>
+                        </div>
+                    }  
+                    else
+                    {
+                        <div class="nk-reply">
+                            <h3 class="text-main">Yorumla</h3>
+                            <form asp-action="addcomment" asp-controller="comment" class="nk-form">
+                                <textarea class="form-control" name="thecomment" rows="1" placeholder="Comment"></textarea>
+                                <input type="number" class="form-control" name="UserId" placeholder="Your Name">
+                                <input type="number" class="form-control" name="FilmId" placeholder="Your Email">
+                                <button class="nk-form-btn text-main">Gönder</button>
+                                <p>@ViewBag.Comment</p>
+                                @Html.ReCaptcha()
+                            </form>
+                            <div class="nk-gap-2"></div>
+                        </div>
+                    }
+                   
                     <!-- END: Reply -->
 
                 </div>
