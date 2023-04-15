@@ -1,10 +1,21 @@
 ﻿@{
-    Layout = "_LightLayout";
+    ViewData["Title"] = "Giriş Yap.";
 }
 
-<form action="#" class="nk-form">
-    <textarea class="form-control" name="comment" rows="1" placeholder="Comment"></textarea>
-    <input type="text" class="form-control" name="name" placeholder="Your Name">
-    <input type="email" class="form-control" name="email" placeholder="Your Email">
-    <button class="nk-form-btn text-main">Reply</button>
-</form>
+<div class="nk-main active" id="nk-main" data-transition-speed="500" data-transition-in="bottom" data-transition-out="right">
+    <div class="nano">
+        <div class="nano-content">
+            <div class="nk-vertical-top">
+                <div>
+                    <h3 class="text-main">Giriş Yap</h3>
+                    <form asp-action="index" asp-controller="login" class="nk-form">
+                        <input type="email" class="form-control" name="email" placeholder="Email">
+                        <input type="password" class="form-control" name="password" placeholder="Şifre ">
+                        <button class="nk-form-btn text-main">Giriş Yap</button>
+                    </form>
+                    <div class="nk-gap-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

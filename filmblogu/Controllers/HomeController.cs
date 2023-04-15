@@ -29,26 +29,6 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult LightAbout()
-    {
-        return View();
-    }
-    public IActionResult LightBlog()
-    {
-        return View();
-    }
-    public IActionResult LightBlogArticle()
-    {
-        return View();
-    }
-    public IActionResult LightIndex()
-    {
-        return View();
-    }
-    public IActionResult LightContact()
-    {
-        return View();
-    }
     public IActionResult Studio()
     {
         return View();

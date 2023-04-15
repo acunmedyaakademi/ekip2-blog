@@ -7,11 +7,9 @@ namespace filmblog.Models
         public int Id { get; set; }
         public int RolId { get; set; }
         [Required]
-        [MinLength(0)]
         [MaxLength(50)]
         public string Name { get; set; }
         [EmailAddress]
-        [MinLength(0)]
         [MaxLength(70)]
         public string Mail { get; set; }
         public DateTime Mail_Sended_Time { get; }

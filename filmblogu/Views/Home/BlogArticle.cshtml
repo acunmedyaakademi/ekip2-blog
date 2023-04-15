@@ -79,66 +79,22 @@
                             <div class="nk-comment-text">
                                 <p>Of. Lesser it good moved tree under living male under day The evening. Waters creeping gathered give also grass beginning.</p>
                             </div>
-
-                            <!-- START: Comment -->
-                            <div class="nk-comment">
-                                <div class="nk-comment-avatar">
-                                    <a href="#"><img src="assets/images/avatar-1.jpg" alt=""></a>
-                                </div>
-                                <div class="nk-comment-meta">
-                                    <div class="nk-comment-name"><a href="#">Lesa Cruz</a></div>
-                                    <div class="nk-comment-date">20 September, 2016</div>
-                                    <div class="nk-comment-reply"><a href="#">Reply</a></div>
-                                </div>
-                                <div class="nk-comment-text">
-                                    <p>Fourth give grass creature. Whose fowl. His which male which yielding fly won't creature after beast male. Itself. Life heaven whales over given fly whales lesser, day winged one after.</p>
-                                </div>
-
-                                <!-- START: Comment -->
-                                <div class="nk-comment">
-                                    <div class="nk-comment-avatar">
-                                        <a href="#"><img src="assets/images/avatar-3.jpg" alt=""></a>
-                                    </div>
-                                    <div class="nk-comment-meta">
-                                        <div class="nk-comment-name"><a href="#">Katie Anderson</a></div>
-                                        <div class="nk-comment-date">21 September, 2016</div>
-                                        <div class="nk-comment-reply"><a href="#">Reply</a></div>
-                                    </div>
-                                    <div class="nk-comment-text">
-                                        <p>Given signs fifth female air and second face earth one is. Whose greater behold had after he whales forth cattle Thing said kind after his.</p>
-                                        <p>Male upon thing had us hath doesn't great male fifth us. Every whales own given open upon divided life i which blessed subdue moving give.</p>
-                                    </div>
-                                </div>
-                                <!-- END: Comment -->
-                            </div>
-                            <!-- END: Comment -->
                         </div>
                         <!-- END: Comment -->
                         <!-- START: Comment -->
-                        <div class="nk-comment">
-                            <div class="nk-comment-avatar">
-                                <a href="#"><img src="assets/images/avatar-4.jpg" alt=""></a>
-                            </div>
-                            <div class="nk-comment-meta">
-                                <div class="nk-comment-name"><a href="#">Luke Fuller</a></div>
-                                <div class="nk-comment-date">21 September, 2016</div>
-                                <div class="nk-comment-reply"><a href="#"><i class="ion-reply"></i> Reply</a></div>
-                            </div>
-                            <div class="nk-comment-text">
-                                <p>To set. Lights likeness after, stars void in doesn't subdue.</p>
-                            </div>
-                        </div>
+                        
                         <!-- END: Comment -->
                     </div>
                     <!-- END: Comments -->
                     <!-- START: Reply -->
                     <div class="nk-reply">
-                        <h3 class="text-main">Leave a Reply</h3>
-                        <form action="#" class="nk-form">
-                            <textarea class="form-control" name="comment" rows="1" placeholder="Comment"></textarea>
-                            <input type="text" class="form-control" name="name" placeholder="Your Name">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email">
-                            <button class="nk-form-btn text-main">Reply</button>
+                        <h3 class="text-main">Yorumla</h3>
+                        <form asp-action="addcomment" asp-controller="comment" class="nk-form">
+                            <textarea class="form-control" name="thecomment" rows="1" placeholder="Comment"></textarea>
+                            <input type="number" class="form-control" name="UserId" placeholder="Your Name">
+                            <input type="number" class="form-control" name="FilmId" placeholder="Your Email">
+                            <button class="nk-form-btn text-main">Gönder</button>
+                            <p>@ViewBag.Comment</p>
                         </form>
                         <div class="nk-gap-2"></div>
                     </div>

@@ -1,17 +1,17 @@
-﻿//using System.Data.SqlClient;
+﻿//using filmblog.Models;
+//using System.Data.SqlClient;
 //using System.Reflection;
-//using static BlogAppADO.Models.Dtos.PostDtos;
-//using static BlogAppADO.Models.EntityModels;
+
 
 //namespace BlogAppADO.DataAccess
 //{
-//    public class PostDal
+//    public class MovieDal
 //    {
 //        public string connectionString = ConnectionString.ConnectionValue;
 
-//        public List<Post> GetAll()
+//        public List<Movie> GetAll()
 //        {
-//            var postList = new List<Post>();
+//            var postList = new List<Movie>();
 
 //            using (SqlConnection connection = new SqlConnection(connectionString))
 //            {
@@ -22,7 +22,7 @@
 
 //                while (reader.Read())
 //                {
-//                    var postItem = new Post();
+//                    var postItem = new Movie();
 //                    postItem.ID = reader.GetInt32(0);
 //                    postItem.Title = reader.GetString(1);
 //                    postItem.Slug = reader.GetString(2);
@@ -39,7 +39,7 @@
 //            return postList;
 //        }
 
-//        public Post GetPostWithId(int id)
+//        public Movie GetPostWithId(int id)
 //        {
 //            using (SqlConnection connection = new SqlConnection(connectionString))
 //            {
@@ -48,7 +48,7 @@
 //                command.Parameters.AddWithValue("@id", id);
 //                var reader = command.ExecuteReader();
 //                reader.Read();
-//                var postItem = new Post();
+//                var postItem = new Movie();
 //                postItem.ID = reader.GetInt32(0);
 //                postItem.Title = reader.GetString(1);
 //                postItem.Slug = reader.GetString(2);
@@ -63,9 +63,9 @@
 //            }
 //        }
 
-//        public List<Post> GetPostWithUserId(int userID)
+//        public List<Movie> GetPostWithUserId(int userID)
 //        {
-//            var postList = new List<Post>();
+//            var postList = new List<Movie>();
 
 //            using (SqlConnection connection = new SqlConnection(connectionString))
 //            {
@@ -76,7 +76,7 @@
 
 //                while (reader.Read())
 //                {
-//                    var postItem = new Post();
+//                    var postItem = new Movie();
 //                    postItem.ID = reader.GetInt32(0);
 //                    postItem.Title = reader.GetString(1);
 //                    postItem.Slug = reader.GetString(2);
@@ -93,7 +93,7 @@
 //            return postList;
 //        }
 
-//        public Post GetPostWithSlug(string slug)
+//        public Movie GetPostWithSlug(string slug)
 //        {
 //            using (SqlConnection connection = new SqlConnection(connectionString))
 //            {
