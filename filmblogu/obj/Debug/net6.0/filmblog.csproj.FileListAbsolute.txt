@@ -1,0 +1,142 @@
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/wwwroot/assets/bower.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/wwwroot/assets/plugins/background-check/bower.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/wwwroot/assets/plugins/background-check/examples/src/data/navigation.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/wwwroot/assets/plugins/background-check/package.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/appsettings.Development.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/appsettings.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/filmblog.staticwebassets.runtime.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/filmblog
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/filmblog.deps.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/filmblog.runtimeconfig.json
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/filmblog.dll
+/Users/duygusen/Projects/filmblog/bin/Debug/net6.0/filmblog.pdb
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.csproj.AssemblyReference.cache
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.GeneratedMSBuildEditorConfig.editorconfig
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.AssemblyInfoInputs.cache
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.AssemblyInfo.cs
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.csproj.CoreCompileInputs.cache
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.MvcApplicationPartsAssemblyInfo.cache
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.RazorAssemblyInfo.cache
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.RazorAssemblyInfo.cs
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets/msbuild.filmblog.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets/msbuild.build.filmblog.props
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.filmblog.props
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.filmblog.props
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets.build.json
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/staticwebassets.development.json
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/scopedcss/bundle/filmblog.styles.css
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/scopedcss/projectbundle/filmblog.bundle.scp.css
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.dll
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/refint/filmblog.dll
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.pdb
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/filmblog.genruntimeconfig.cache
+/Users/duygusen/Projects/filmblog/obj/Debug/net6.0/ref/filmblog.dll
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\appsettings.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\filmblog.staticwebassets.runtime.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\filmblog.exe
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\filmblog.deps.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\filmblog.runtimeconfig.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\filmblog.dll
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\bin\Debug\net6.0\filmblog.pdb
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.csproj.AssemblyReference.cache
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.AssemblyInfoInputs.cache
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.AssemblyInfo.cs
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.csproj.CoreCompileInputs.cache
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.RazorAssemblyInfo.cache
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.RazorAssemblyInfo.cs
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets\msbuild.filmblog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets\msbuild.build.filmblog.props
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.filmblog.props
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.filmblog.props
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\scopedcss\bundle\filmblog.styles.css
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\scopedcss\projectbundle\filmblog.bundle.scp.css
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.dll
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\refint\filmblog.dll
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.pdb
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\filmblog.genruntimeconfig.cache
+C:\Users\yunus\Desktop\Yeni klasör (2)\filmblog\obj\Debug\net6.0\ref\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\appsettings.json
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\filmblog.staticwebassets.runtime.json
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\filmblog.exe
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\filmblog.deps.json
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\filmblog.runtimeconfig.json
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\filmblog.pdb
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.csproj.AssemblyReference.cache
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.AssemblyInfoInputs.cache
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.AssemblyInfo.cs
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.csproj.CoreCompileInputs.cache
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.RazorAssemblyInfo.cache
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.RazorAssemblyInfo.cs
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets\msbuild.filmblog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets\msbuild.build.filmblog.props
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.filmblog.props
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.filmblog.props
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\scopedcss\bundle\filmblog.styles.css
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\scopedcss\projectbundle\filmblog.bundle.scp.css
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\refint\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.pdb
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.genruntimeconfig.cache
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\ref\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yunus\Desktop\filmb\filmblog2\obj\Debug\net6.0\filmblog.csproj.CopyComplete
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\appsettings.json
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\filmblog.staticwebassets.runtime.json
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\filmblog.exe
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\filmblog.deps.json
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\filmblog.runtimeconfig.json
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\filmblog.pdb
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.csproj.AssemblyReference.cache
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.AssemblyInfoInputs.cache
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.AssemblyInfo.cs
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.csproj.CoreCompileInputs.cache
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.RazorAssemblyInfo.cache
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.RazorAssemblyInfo.cs
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets\msbuild.filmblog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets\msbuild.build.filmblog.props
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.filmblog.props
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.filmblog.props
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\scopedcss\bundle\filmblog.styles.css
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\scopedcss\projectbundle\filmblog.bundle.scp.css
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.csproj.CopyComplete
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\refint\filmblog.dll
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.pdb
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\filmblog.genruntimeconfig.cache
+C:\Users\yunus\Desktop\filmb\filmblogu\obj\Debug\net6.0\ref\filmblog.dll

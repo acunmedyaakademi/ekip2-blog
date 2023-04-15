@@ -1,0 +1,293 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\filmblogu.bundle.scp.css",
+      "PackagePath": "staticwebassets\\filmblogu.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\bootstrap-custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-custom.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\bootstrap-custom.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-custom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\umbrella.css",
+      "PackagePath": "staticwebassets\\assets\\css\\umbrella.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\umbrella.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\umbrella.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-1-sm.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1-sm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-2-sm.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2-sm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-3-sm.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-3-sm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-4-sm.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-4-sm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-5-sm.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-5-sm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\bg-menu.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-menu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\blog-article.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-article.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-about.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-article.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-article.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-blog.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-blog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-contact.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-contact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-main.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-studio.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-studio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\demo-video.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\demo-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\dogville.png",
+      "PackagePath": "staticwebassets\\assets\\images\\dogville.png"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\favicon.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-1-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-1-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-1-video.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-1-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-2-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-2-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-2-video.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-2-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-3-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-3-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-3-video.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-3-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-4-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-4-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-5-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-5-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-6-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-6-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-7-light.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-7-light.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\slide-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slide-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\soysuzlarcetesi.png",
+      "PackagePath": "staticwebassets\\assets\\images\\soysuzlarcetesi.png"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\team-member-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\team-member-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\team-member-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\images\\team-member-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team-member-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\bootstrap-custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\bootstrap-custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\umbrella-init.js",
+      "PackagePath": "staticwebassets\\assets\\js\\umbrella-init.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\umbrella.js",
+      "PackagePath": "staticwebassets\\assets\\js\\umbrella.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\umbrella.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\umbrella.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.filmblogu.props",
+      "PackagePath": "build\\filmblogu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.filmblogu.props",
+      "PackagePath": "buildMultiTargeting\\filmblogu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.filmblogu.props",
+      "PackagePath": "buildTransitive\\filmblogu.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.filmblogu.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
