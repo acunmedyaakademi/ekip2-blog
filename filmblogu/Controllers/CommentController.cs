@@ -12,7 +12,7 @@ namespace filmblogu.Controllers
         public IActionResult AddComment(Comment comment)
         {
             CommentDal CommentDal = new CommentDal();
-            if (CommentDal.AddComment(comment))
+            if (CommentDal.AddComment(comment) && ModelState.IsValid)
             {
                 ViewBag.Comment = "Yorumunuz Gönderildi";
                 return Content("eklendi");
