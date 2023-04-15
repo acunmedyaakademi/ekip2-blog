@@ -47,6 +47,14 @@
 -->
 <div class="nk-blog active" id="nk-blog">
 
+
+
+@* böyle olacak   @foreach (var item in Model)
+    {
+        <div class="nk-blog-item">
+            <h2><a href="/home/blogarticle?a=@item.ıd">@item.summary</a></h2>
+        </div>
+    }*@
     <div class="nk-blog-item">
         <h2><a href="/home/blogarticle">From delicately embroidered broderie anglaise dresses to darling corduroy dungarees, the new collection</a></h2>
     </div>

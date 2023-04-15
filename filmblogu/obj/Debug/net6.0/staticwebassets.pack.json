@@ -273,6 +273,322 @@
       "PackagePath": "staticwebassets\\assets\\js\\umbrella.min.js"
     },
     {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\Gruntfile.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\Gruntfile.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\LICENSE",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\README.md",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\background-check.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\background-check.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\background-check.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\background-check.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\bower.json",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\canvas.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\canvas.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\cross-origin-css.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\cross-origin-css.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\cross-origin.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\cross-origin.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\css-backgrounds-fullscreen.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\css-backgrounds-fullscreen.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\css-backgrounds.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\css-backgrounds.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\fixed-nav.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\fixed-nav.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\flexslider-fade.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\flexslider-fade.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\flexslider.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\flexslider.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\images\\credits.txt",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\images\\credits.txt"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\index.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\require-js.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\require-js.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\canvas.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\cross-origin-css.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\cross-origin-css.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\cross-origin.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\cross-origin.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\css-backgrounds.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\css-backgrounds.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\drag.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\drag.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\fixed-nav.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\fixed-nav.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\jquery.flexslider.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\jquery.flexslider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\main.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\require-main.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\require-main.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\require.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\require.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\scripts\\slider.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\scripts\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\slider.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\slider.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\styles\\examples.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\styles\\examples.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\styles\\normalize.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\styles\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\styles\\slider.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\styles\\slider.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\build\\zindex.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\build\\zindex.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\data\\navigation.json",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\data\\navigation.json"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\layouts\\default.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\layouts\\default.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\canvas.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\canvas.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\cross-origin-css.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\cross-origin-css.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\cross-origin.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\cross-origin.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\css-backgrounds-fullscreen.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\css-backgrounds-fullscreen.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\css-backgrounds.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\css-backgrounds.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\fixed-nav.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\fixed-nav.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\flexslider-fade.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\flexslider-fade.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\flexslider.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\flexslider.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\index.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\index.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\require-js.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\require-js.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\slider.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\slider.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\pages\\zindex.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\pages\\zindex.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\download.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\download.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\drag.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\drag.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\footer.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\footer.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\ga.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\ga.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\header.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\header.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\nav.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\nav.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\targets-fixed.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\targets-fixed.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\examples\\src\\partials\\targets.hbs",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\examples\\src\\partials\\targets.hbs"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\package.json",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\css-backgrounds-expected.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\css-backgrounds-expected.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\data-uri-example.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\data-uri-example.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\index.html",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\qunit.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\qunit.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\qunit.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\qunit.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\sinon-qunit.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\sinon-qunit.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\sinon.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\sinon.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test-attributes.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test-attributes.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test-canvas.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test-classes.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test-classes.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test-css-backgrounds.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test-css-backgrounds.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test-delayed-loading.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test-delayed-loading.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test-zindex.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test-zindex.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\plugins\\background-check\\test\\test.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\background-check\\test\\test.css"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.filmblogu.props",
       "PackagePath": "build\\filmblogu.props"
     },
