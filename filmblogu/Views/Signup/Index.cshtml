@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Giriş Yap.";
+    ViewData["Title"] = "Üye Ol.";
 }
 
 <div class="nk-main active" id="nk-main" data-transition-speed="500" data-transition-in="bottom" data-transition-out="right">
@@ -7,12 +7,12 @@
         <div class="nano-content">
             <div class="nk-vertical-top">
                 <div>
-                    <h3 class="text-main">Giriş Yap</h3>
-                    <form asp-action="index" asp-controller="login" class="nk-form">
-                        <input type="adSoyad" class="form-control" name="adSoyad" placeholder="adSoyad">
+                    <h3 class="text-main">Kayıt Ol</h3>
+                    <form asp-action="index" asp-controller="signin" class="nk-form">
+                        <input type="AdSoyad" class="form-control" name="AdSoyad" placeholder="AdSoyad">
                         <input type="email" class="form-control" name="email" placeholder="Email">
                         <input type="password" class="form-control" name="password" placeholder="Şifre ">
-                        <button class="nk-form-btn text-main">Giriş Yap</button>
+                        <button class="nk-form-btn text-main">Üye Ol</button>
                     </form>
                     <div class="nk-gap-2"></div>
                 </div>
