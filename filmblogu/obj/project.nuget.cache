@@ -1,11 +1,25 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "HSgDQ3vt4ES/w5GNSKUn/Vi4MhMQ7fdiGSbrY48mh4BDoIqefpvWEs3hUJwCq7X9Ptlgnk+hf8tQh/DyTNnyxg==",
   "success": true,
   "projectFilePath": "/Users/duygusen/Documents/GitHub/ekip2-blog/filmblogu/filmblogu.csproj",
   "expectedPackageFiles": [
     "/Users/duygusen/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/duygusen/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+=======
+  "dgSpecHash": "DbxPAndGjp503mgEHlxSI/eaXhD34O0CxYA6wFB3gethl5mHYgjGv+DdDpKywJ0siiZwXQpj/nRCQRmxt0YPlQ==",
+  "success": true,
+  "projectFilePath": "/Users/duygusen/Documents/GitHub/ekip2-blog/filmblogu/filmblogu.csproj",
+  "expectedPackageFiles": [
+    "/Users/duygusen/.nuget/packages/aspnetcore.recaptcha/1.7.0/aspnetcore.recaptcha.1.7.0.nupkg.sha512",
+    "/Users/duygusen/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.0/microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "/Users/duygusen/.nuget/packages/microsoft.extensions.options/3.1.0/microsoft.extensions.options.3.1.0.nupkg.sha512",
+    "/Users/duygusen/.nuget/packages/microsoft.extensions.primitives/3.1.0/microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "/Users/duygusen/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/duygusen/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/duygusen/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+>>>>>>> Stashed changes
     "/Users/duygusen/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/duygusen/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/duygusen/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

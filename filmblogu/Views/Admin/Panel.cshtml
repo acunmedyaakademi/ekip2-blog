@@ -1,0 +1,29 @@
+﻿@using filmblogu.Models.
+@{
+    ViewData["Title"] = "Admin Panel.";
+
+    Layout = "_AdminLayout";
+}
+
+<table>
+
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Mail</th>
+        <th>RoleId</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Mail</td>
+            <td>@item.RoleId</td>
+            <td><a href="#" class="btn btn-primary">Güncelle</a></td>
+        </tr>
+    }
+
+
+</table>

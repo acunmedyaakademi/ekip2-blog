@@ -1,15 +1,34 @@
 ﻿<Properties StartupConfiguration="{09999C67-6FC2-4566-A6B6-D1CFC172C54C}|filmblog">
+<<<<<<< Updated upstream
   <MonoDevelop.Ide.Workbench ActiveDocument="filmblogu/Controllers/SignupController.cs">
     <Files>
       <File FileName="filmblogu/Models/LoginModel.cs" Line="1" Column="1" />
       <File FileName="filmblogu/Controllers/SigninController.cs" Line="21" Column="1" />
       <File FileName="filmblogu/DataAccess/UserDal.cs" Line="8" Column="18" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="filmblogu/Views/Admin/Panel.cshtml">
+    <Files>
+      <File FileName="filmblogu/Views/Admin/Index.cshtml" Line="8" Column="4" />
+      <File FileName="filmblogu/Views/Shared/_AdminLayout.cshtml" Line="25" Column="35" />
+      <File FileName="filmblogu/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="filmblogu/Views/Admin/Panel.cshtml" Line="24" Column="25" />
+      <File FileName="filmblogu/Models/Role.cs" Line="1" Column="1" />
+      <File FileName="filmblogu/Models/User.cs" Line="1" Column="1" />
+      <File FileName="filmblogu/Models/LoginModel.cs" Line="1" Column="1" />
+      <File FileName="filmblogu/Controllers/HomeController.cs" Line="16" Column="1" />
+      <File FileName="filmblogu/Models/Comment.cs" Line="1" Column="1" />
+      <File FileName="filmblogu/Models/Category.cs" Line="1" Column="1" />
+      <File FileName="filmblogu/Models/Movie.cs" Line="1" Column="1" />
+      <File FileName="filmblogu/Controllers/Admin.cs" Line="23" Column="1" />
+      <File FileName="filmblogu/Controllers/LoginController.cs" Line="9" Column="28" />
+>>>>>>> Stashed changes
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="filmblogu" expanded="True">
             <Node name="filmblogu" expanded="True">
+<<<<<<< Updated upstream
               <Node name="Controllers" expanded="True">
                 <Node name="SignupController.cs" selected="True" />
               </Node>
@@ -20,6 +39,17 @@
                 <Node name="Login" expanded="True" />
                 <Node name="Shared" expanded="True" />
                 <Node name="Signup" expanded="True" />
+=======
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataAccess" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Login" expanded="True" />
+                <Node name="Shared" expanded="True" />
+>>>>>>> Stashed changes
                 <Node name="Test" expanded="True" />
               </Node>
             </Node>
