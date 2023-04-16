@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using filmblog.Models;
+using BlogAppADO.DataAccess;
+using filmblogu.Models;
 
 namespace filmblog.Controllers;
 
@@ -23,16 +25,20 @@ public class HomeController : Controller
     }
     public IActionResult Blog()
     {
-        return View();
+        MovieDal movieDal = new();
+
+        return View(movieDal.GetAll());
     }
     public IActionResult Contact()
     {
         return View();
     }
-    public IActionResult BlogArticle()
+    public IActionResult BlogArticle(int id)
     {
-        /*vakit kalırsa partial yap*/
-
+        BlogArticleVM blogArticle = new();
+        MovieDal movieDal = new();
+        CommentDal commentDal = new();
+                
         bool IsIn = false;
         ViewBag.Comment = HttpContext.Session.GetString("Comment");
 
@@ -40,8 +46,13 @@ public class HomeController : Controller
         {
             IsIn= true;
         }
+
+        ViewBag.IsIn = IsIn;
+
+        blogArticle.Movie = movieDal.GetPostWithId(id);
+        blogArticle.Comments = commentDal.GetComments(blogArticle.Movie.Id);
        
-        return View(IsIn);
+        return View(blogArticle);
     }
 
     public IActionResult Studio()

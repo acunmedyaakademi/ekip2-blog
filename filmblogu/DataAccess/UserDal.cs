@@ -93,8 +93,8 @@ namespace BlogAppADO.DataAccess
                     userItem.Mail_Confirmed = reader.GetBoolean(8);
                 }
                 else
-                  return null;
-                           
+                    return null;
+
 
                 return userItem;
             }
@@ -105,8 +105,8 @@ namespace BlogAppADO.DataAccess
             if (GetUserWithEmail(user.Mail) == null)
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
-                //    try
-                //    {
+                    try
+                    {
                         user.Mail_Code = codeGenerator.RandomPassword(6);
 
                         connection.Open();
@@ -130,11 +130,11 @@ namespace BlogAppADO.DataAccess
                         mailKitService.SendMailPassword(user.Mail, user.Mail_Code);
                         return true;
 
-                    //}
-                    //catch (Exception e)
-                    //{
-                    //    return false;
-                    //}
+                    }
+                    catch (Exception e)
+                    {
+                        return false;
+                    }
 
                 }
 
@@ -162,6 +162,32 @@ namespace BlogAppADO.DataAccess
                     //command.Parameters.AddWithValue("@mail_Code", user.Mail_Code);
                     //command.Parameters.AddWithValue("@mail_Confirmed", user.Mail_Confirmed);
 
+                    command.ExecuteNonQuery();
+
+                    return true;
+
+                }
+                catch (Exception e)
+                {
+                    return false;
+                }
+            }
+        }
+
+        public bool UpdateUserRole(int id, int RoleId)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
+
+                    var command = new SqlCommand(
+                            "UPDATE users SET rol_id = @rol_id WHERE id = @id",
+                            connection);
+
+                    command.Parameters.AddWithValue("@id", id);
+                    command.Parameters.AddWithValue("@rol_id", RoleId);
                     command.ExecuteNonQuery();
 
                     return true;

@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+
+@model List<User>
+
+<div>
+
+    @foreach (var item in Model)
+    {
+       <p>İsim: @item.Name</p>
+       <p>Mail: @item.Mail</p>
+       <p>Mail Onayı: @item.Mail_Confirmed</p>
+       <p>Durum: @item.Is_Active</p>
+       <p>Şifre: @item.Password</p>
+       <p>Role: @item.RolId</p>
+
+        @if (item.RolId == 2)
+        {
+            <a href="/admin/UpdateRole?id=@item.Id&roleid=1">Üye yap</a>
+            <a href="/admin/deleteuser?id=@item.Id">Sil</a>
+        }
+        if (item.RolId == 1)
+        {
+            <a href="/admin/UpdateRole?id=@item.Id&roleid=2">Editör yap</a>
+            <a href="/admin/deleteuser?id=@item.Id">Sil</a>
+        }
+        <hr />
+    }
+</div>

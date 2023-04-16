@@ -13,8 +13,24 @@
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap-custom.min.css"
     },
     {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\comment.css",
+      "PackagePath": "staticwebassets\\assets\\css\\comment.css"
+    },
+    {
       "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\custom.css",
       "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\index.css",
+      "PackagePath": "staticwebassets\\assets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\mainpage.css",
+      "PackagePath": "staticwebassets\\assets\\css\\mainpage.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\site.css",
+      "PackagePath": "staticwebassets\\assets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\css\\umbrella.css",
@@ -259,6 +275,258 @@
     {
       "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\custom.js",
       "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\assets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tinymce\\tinymce.min.js"
     },
     {
       "Id": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\wwwroot\\assets\\js\\umbrella-init.js",

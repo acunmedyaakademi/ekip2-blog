@@ -16,6 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/AcceptComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWNjZXB0Q29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/AddMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/AllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWxsVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/DeleteMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/UpdateMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlTW92aWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Admin/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -91,3 +119,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uthso6dahp
+
+[C:/Users/yunus/Desktop/FilmBlogu/filmblogu/filmblogu/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-nfk4sin1tj

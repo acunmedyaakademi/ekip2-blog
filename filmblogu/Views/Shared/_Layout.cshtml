@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -36,34 +40,34 @@
     -->
     <div class="nk-layout">
         <!--
-        Slider
+            Slider
 
-        Additional Classes:
-            .nk-slider-hide-titles - hide titles after slide
+            Additional Classes:
+                .nk-slider-hide-titles - hide titles after slide
 
-        Additional Classes Per Slide:
-            .active - active slide on startup
+            Additional Classes Per Slide:
+                .active - active slide on startup
 
-        Additional Attributes:
-            data-active-category - current active category
-            data-autoplay - autoplay delay in milliseconds
-            data-transition-speed - transition speed in milliseconds
-            data-transition-effect - transition effect for slides. Available effects: fade, divide, top, left, right, bottom
-            data-category-transition-speed - transition speed in milliseconds after category change
-            data-category-transition-effect - transition effect for slides after category change
-            data-force-reload - reload slider on ajax page request. Required values like in data-transition-effect attribute.
+            Additional Attributes:
+                data-active-category - current active category
+                data-autoplay - autoplay delay in milliseconds
+                data-transition-speed - transition speed in milliseconds
+                data-transition-effect - transition effect for slides. Available effects: fade, divide, top, left, right, bottom
+                data-category-transition-speed - transition speed in milliseconds after category change
+                data-category-transition-effect - transition effect for slides after category change
+                data-force-reload - reload slider on ajax page request. Required values like in data-transition-effect attribute.
 
-        Additional Attributes Per Slide:
-            data-categories - list with categories
-            data-background-position - position for slide image. By default "50% 50%"
+            Additional Attributes Per Slide:
+                data-categories - list with categories
+                data-background-position - position for slide image. By default "50% 50%"
 
-        Notes:
-            If you want add more then 1 category per slide, type it with | divider.
-            Example: data-categories="Fashion|Portraits|Nature"
+            Notes:
+                If you want add more then 1 category per slide, type it with | divider.
+                Example: data-categories="Fashion|Portraits|Nature"
 
-            If you want to add slide in all categories, use *
-            Example: data-categories="*"
-    -->
+                If you want to add slide in all categories, use *
+                Example: data-categories="*"
+        -->
 
         <div class="nk-slider nk-slider-hide-titles" data-active-category="Fashion" data-transition-speed="500" data-transition-effect="fade" data-category-transition-speed="500" data-category-transition-effect="top" data-autoplay="false" data-force-reload="fade">
 
@@ -133,11 +137,11 @@
         <!-- Bottom Right -->
         <div class="nk-layout-bottom-right">
             <!--
-            START: Slider Navigation
+                START: Slider Navigation
 
-            Additional Classes:
-                .nk-slider-nav-slim
-        -->
+                Additional Classes:
+                    .nk-slider-nav-slim
+            -->
             <div class="nk-slider-nav nk-slider-nav-slim">
                 <ul>
                     <!-- Here will be inserted slider bullets -->
@@ -157,7 +161,7 @@
         <!-- Top Left -->
         <div class="nk-layout-top-left">
 
-            <a href="./" class="nk-nav-logo">
+            <a href="/" class="nk-nav-logo">
                 <img src="/assets/images/logo.png" alt="" width="133" data-logo-dark="assets/images/logo-dark.png">
             </a>
 
@@ -166,18 +170,21 @@
             <div class="nk-loading-spinner-place"></div>
 
             <!-- Top Left Rotated -->
-            <div class="nk-layout-top-left-rotated">
-                <nav class="nk-nav">
-                    <ul>
-                        <li>
-                            <a href="/login">Giriş Yap</a>
-                        </li>
-                        <li>
-                            <a href="/signup">Kayıt Ol</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            @if (Accessor.HttpContext.Session.GetString("Login") == null)
+            {
+                <div class="nk-layout-top-left-rotated">
+                    <nav class="nk-nav">
+                        <ul>
+                            <li>
+                                <a href="/login">Giriş Yap</a>
+                            </li>
+                            <li>
+                                <a href="/signup">Kayıt Ol</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            }
         </div>
 
         <!-- Top Right -->
@@ -227,7 +234,7 @@
         <h3 class="nk-layout-content-title">@ViewData["Title"].</h3>
         <h3 class="nk-layout-content-subtitle">The Supermodels Always Bring Their Flawless Festival Style to Rio</h3>
 
-        
+
 
     </div>
     <!-- END: Fixed Layout -->
@@ -271,7 +278,6 @@
     </div>
 
     <!-- END: Navbar -->
-
     @RenderBody()
 
     <!-- START: Scripts -->
@@ -293,14 +299,14 @@
 
     <!-- Hammer.js -->
     <script src="/assets/bower_components/hammer.js/hammer.min.js"></script>
-    
+
     <!-- NanoSroller -->
     <script src="/assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
 
     <!-- Background Check Custom -->
     <script src="/assets/plugins/background-check/background-check.min.js"></script>
 
-   @* <!-- Jarallax Video -->
+    @* <!-- Jarallax Video -->
     <script src="/assets/bower_components/jarallax/dist/jarallax-video.min.js"></script>*@
 
     <!-- Umbrella -->
@@ -308,8 +314,6 @@
     <script src="/assets/js/custom.js"></script>
     <script src="/assets/js/umbrella-init.js"></script>
     <!-- END: Scripts -->
-
-
     @await RenderSectionAsync("Scripts", required: false)
 
 

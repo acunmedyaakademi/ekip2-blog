@@ -14,7 +14,7 @@ namespace BlogAppADO.DataAccess
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                var command = new SqlCommand("SELECT id, comment, date, user_id, film_id FROM comments WHERE film_id = @film_id", connection);
+                var command = new SqlCommand("select c.id, comment, date, c.user_id, c.film_id, name, m.movie_name from comments as c join users as u on u.id = u.id join movies as m on c.film_id = m.id where c.film_id = @film_id", connection);
                 command.Parameters.AddWithValue("@film_id", a);
 
                 var reader = command.ExecuteReader();
@@ -24,15 +24,45 @@ namespace BlogAppADO.DataAccess
                     var commentItem = new Comment();
                     commentItem.Id = reader.GetInt32(0);
                     commentItem.TheComment = reader.GetString(1);
-                    commentItem.Date = reader.GetDateTime(3);
-                    commentItem.UserId = reader.GetInt32(4);
-                    commentItem.FilmId = reader.GetInt32(5);
+                    commentItem.Date = reader.GetDateTime(2);
+                    commentItem.UserId = reader.GetInt32(3);
+                    commentItem.FilmId = reader.GetInt32(4);
+                    commentItem.name= reader.GetString(5);
+                    commentItem.MovieName = reader.GetString(6);
 
                     commentList.Add(commentItem);
                 }
             }
             return commentList;
         }
+
+        public List<Comment> GetCommentsUnAccepted()
+        {
+            var commentList = new List<Comment>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("select c.id, comment, date, c.user_id, c.film_id, name, m.movie_name from comments as c join users as u on u.id = u.id join movies as m on c.film_id = m.id where c.is_active = 0", connection);
+                var reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    var commentItem = new Comment();
+                    commentItem.Id = reader.GetInt32(0);
+                    commentItem.TheComment = reader.GetString(1);
+                    commentItem.Date = reader.GetDateTime(2);
+                    commentItem.UserId = reader.GetInt32(3);
+                    commentItem.FilmId = reader.GetInt32(4);
+                    commentItem.name = reader.GetString(5);
+                    commentItem.MovieName = reader.GetString(6);
+
+                    commentList.Add(commentItem);
+                }
+            }
+            return commentList;
+        }
+
 
         public bool AddComment(Comment comment)
         {

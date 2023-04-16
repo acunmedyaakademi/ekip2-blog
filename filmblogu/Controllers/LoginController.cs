@@ -52,8 +52,6 @@ namespace filmblog.Controllers
             return View();
         }
 
-
-
         public ActionResult ResetPassword()
         {
             return View();
@@ -92,7 +90,7 @@ namespace filmblog.Controllers
             {
                 if (UserDal.MailConfirm(Model.Mail))
                 {
-                    return RedirectToAction("index", "home");
+                    return RedirectToAction("index", "login");
                 }
             }
 

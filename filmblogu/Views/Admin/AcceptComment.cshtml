@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+@model List<Comment>
+<div>
+
+    @foreach (var item in Model)
+    {
+        <p>Kullanıcı Adı: @item.name</p>
+        <p>blog başlığı: @item.MovieName</p>
+        <p>yorum: @item.TheComment</p>
+        <p>@item.Date</p>
+        <a href="/admin/CommentAccepted?a=@item.Id&delete=@true"> Sil</a>
+        <a href="/admin/CommentAccepted?a=@item.Id"> Kabulet</a>
+        <hr />
+    }
+
+</div>

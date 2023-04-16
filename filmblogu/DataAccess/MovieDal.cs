@@ -129,7 +129,7 @@ namespace BlogAppADO.DataAccess
             }
         }
 
-        public bool UpdatePost(UpdateMovie movie)
+        public bool UpdatePost(Movie movie)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -163,7 +163,7 @@ namespace BlogAppADO.DataAccess
             }
         }
 
-        public bool AddPost(AddMovie movie)
+        public bool AddPost(Movie movie)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -172,9 +172,7 @@ namespace BlogAppADO.DataAccess
                     connection.Open();
 
                     var command = new SqlCommand(
-                        "INSERT INTO movies " +
-                        "(movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id) VALUES" +
-                        "(@movieName, @director, @summary, @slug, @content, @createdOn, @updatedOn, @picture, @is_Active, @movieMinute  @userID)",
+                        "INSERT INTO movies (movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id) VALUES (@movieName, @director, @summary, @slug, @content, @createdOn, @updatedOn, @picture, @is_Active, @movieMinute, @userID)",
                             connection);
 
                     command.Parameters.AddWithValue("@movieName", movie.MovieName);

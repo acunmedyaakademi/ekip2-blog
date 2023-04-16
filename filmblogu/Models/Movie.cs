@@ -4,7 +4,7 @@ namespace filmblog.Models
 {
     public class Movie
     {
-        public int? Id { get; set; }
+        public int Id { get; set; }
         [Required]
         [MaxLength(100)]
         public string MovieName { get; set; }

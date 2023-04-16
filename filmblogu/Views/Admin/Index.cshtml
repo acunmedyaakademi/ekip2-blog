@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+
+@model List<Movie>
+
+<div>
+    @foreach (var item in Model)
+    {
+        <p>@item.MovieName</p>
+        <p>@item.Summary</p>
+        <a href="/admin/moviedelete?a=@item.Id"> Sil</a>
+        <a href="/admin/updatemovie?a=@item.Id"> düzenle</a>
+        <hr />
+    }
+</div>

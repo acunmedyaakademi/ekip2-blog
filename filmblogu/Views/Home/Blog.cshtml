@@ -3,94 +3,34 @@
 }
 @model List<Movie>
 
-<!--
-    START: Main Page Content
-
-    Additional Classes:
-        .active
-        .nk-main-lower-title - title will be visible under content text
-
-    Additional Attributes:
-        data-transition-speed - transition speed in milliseconds
-        data-transition-in - top, bottom, right. Show transition type
-        data-transition-out - top, bottom, right. Hide transition type
-
-    Note:
-        If you don't want to show content, just remove all content inside .nano-content and inside .nk-layout and remove .active class, but don't remove this block completely
--->
-
 <div class="nk-main" id="nk-main" data-transition-speed="500" data-transition-in="bottom" data-transition-out="right">
     <div class="nano">
         <div class="nano-content">
             <div class="nk-vertical-top">
                 <div>
-
                 </div>
             </div>
         </div>
     </div>
-    <!-- Bottom Right Info -->
+
     <div class="nk-layout">
         <div class="nk-layout-bottom-right-rotated">
-
         </div>
     </div>
 </div>
+
 <div class="nk-main-bg"></div>
-<!-- END: Main Page Content -->
-<!--
-    START: Blog
 
-    Additional Classes:
-        .active
-
-    Note:
-        If you don't want to show blog, just remove all content inside and remove .active class, but don't remove this block completely
--->
 <div class="nk-blog active" id="nk-blog">
 
-
-
-
-    @* böyle olacak @foreach (var item in Model)
+    @foreach (var item in Model)
     {
-    <div class="nk-blog-item">
-    <div class="nk-blog-item">
-    <a href="/home/blogarticle">
-    <h2>yunsdadsae</h2>
-    <p>sdadsdsadsadsadas</p>
-    <p>sdadsdsadsadsadas</p>
-    </a>
-    </div>
-    }*@
+        <div class="nk-blog-item">
 
-
-    <div class="nk-blog-item">
- 
-        <h2><a href="/home/blogarticle"> From delicately embroidered broderie anglaise dresses to darling corduroy dungarees, the new collection</a></h2>
-    </div>
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle">New look Saint Laurent comprises 15 hitherto-unknown models stripped down to their birthday suits, with only</a></h2>
-    </div>
-  
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle">It's this attention to detail that has clients returning again and again</a></h2>
-    </div>
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle">Current fashion seems to have gone full circle from garments known only by their historic associations to today’s outfits</a></h2>
-    </div>
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle"> With our indie kid sweatshirts, flight jackets, and straight leg boyfriend jeans we've become fashionably lazy</a></h2>
-    </div>
-
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle">The runways have been overrun with a certain type of logomania</a></h2>
-    </div>
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle">I would never wear anything that could be construed as 'offensive' to work</a></h2>
-    </div>
-
-    <!-- All other posts will be loaded using ajax. See umbrella-init.js file for callback function -->
-
+            <a href="/home/blogarticle?id=@item.Id">
+                    <p>@item.MovieName</p>
+                    <p>@item.Summary</p>
+                </a>
+        </div>
+    }
 </div>
-<!-- END: Blog -->

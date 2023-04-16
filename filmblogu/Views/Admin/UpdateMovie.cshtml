@@ -1,0 +1,46 @@
+﻿@{
+    Layout = "_LayoutAdmin";
+}
+@model Movie
+
+<form method="post">
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">MovieName</label>
+        <input class="form-control" type="hidden" name="Id" value="@Model.Id"  rows="3">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">MovieName</label>
+        <input class="form-control" required name="MovieName" value="@Model.MovieName" placeholder="MovieName" rows="3">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Director</label>
+        <input class="form-control" required name="Director" value="@Model.Director" placeholder="Director" rows="3">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Summary</label>
+        <input class="form-control" required name="Summary" value="@Model.Summary" placeholder="Summary" rows="3">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Slug</label>
+        <input class="form-control" required name="Slug" value="@Model.Slug" placeholder="Slug" rows="3">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">UserID</label>
+        <input class="form-control" required name="UserID" value="@Model.UserID" placeholder="UserID" rows="3">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">MovieMinute</label>
+        <input class="form-control" required name="MovieMinute" value="@Model.MovieMinute" placeholder="MovieMinute" rows="3">
+    </div>
+     <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Content</label>
+        <textarea value="" class="form-control" name="Content" placeholder="Content" rows="3">@Model.Content</textarea>
+        </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" name="IsActive" class="form-check-input" id="IsActive" value="true">
+        <label class="form-check-label" for="IsActive"> IsActive </label>
+    </div>
+
+    <input type="submit" value="Ekle">
+</form>

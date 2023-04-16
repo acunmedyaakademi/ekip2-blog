@@ -45,13 +45,13 @@ var options = {
             setTimeout(function () {
                 // new posts will be appended to the current list
                 var newPosts = [{
-                    title: 'Other designers are experimenting with backless blouses, cut-out crop tops, and spine-baring slips',
+                    title: ' ',
                     url: 'blog-article.html'
                 }, {
-                    title: 'The style has long been considered to be the cotton anti-sexy of the underpinning world, with its noticeable seams and overtly full-coverage silhouette',
+                    title: ' ',
                     url: 'blog-article.html'
                 }, {
-                    title: 'Or a little pantaloon, while maybe not sexy, can be really pretty and sweet',
+                    title: ' ',
                     url: 'blog-article.html'
                 }];
 
