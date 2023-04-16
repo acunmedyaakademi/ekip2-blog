@@ -31,17 +31,19 @@ public class HomeController : Controller
     }
     public IActionResult BlogArticle()
     {
-        bool IsIn;
+        /*vakit kalırsa partial yap*/
+
+        bool IsIn = false;
+        ViewBag.Comment = HttpContext.Session.GetString("Comment");
+
         if (HttpContext.Session.GetString("Login") == null)
         {
             IsIn= true;
         }
-        else
-        {
-            IsIn = false;
-        }
+       
         return View(IsIn);
     }
+
     public IActionResult Studio()
     {
         return View();

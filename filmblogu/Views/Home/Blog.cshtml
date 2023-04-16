@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Blog";
 }
+@model List<Movie>
 
 <!--
     START: Main Page Content
@@ -50,12 +51,19 @@
 
 
 
-@* böyle olacak @foreach (var item in Model)
+
+    @* böyle olacak @foreach (var item in Model)
     {
-        <div class="nk-blog-item">
-            <h2><a href="/home/blogarticle?a=@item.ıd">@item.summary</a></h2>
-        </div>
+    <div class="nk-blog-item">
+    <div class="nk-blog-item">
+    <a href="/home/blogarticle">
+    <h2>yunsdadsae</h2>
+    <p>sdadsdsadsadsadas</p>
+    <p>sdadsdsadsadsadas</p>
+    </a>
+    </div>
     }*@
+
 
     <div class="nk-blog-item">
  
@@ -64,10 +72,7 @@
     <div class="nk-blog-item">
         <h2><a href="/home/blogarticle">New look Saint Laurent comprises 15 hitherto-unknown models stripped down to their birthday suits, with only</a></h2>
     </div>
-    <div class="nk-blog-item">
-        <h2><a href="/home/blogarticle">Addressing the supermodel debate that has hit headlines in recent weeks, in which Jenner took</a></h2>
-    </div>
-
+  
     <div class="nk-blog-item">
         <h2><a href="/home/blogarticle">It's this attention to detail that has clients returning again and again</a></h2>
     </div>

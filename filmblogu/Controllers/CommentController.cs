@@ -14,10 +14,13 @@ namespace filmblogu.Controllers
             CommentDal CommentDal = new CommentDal();
             if (CommentDal.AddComment(comment) && ModelState.IsValid)
             {
-                ViewBag.Comment = "Yorumunuz Gönderildi";
-                return Content("eklendi");
+                HttpContext.Session.SetString("Comment", "Yorumunuz gönderildi");
+
+                return RedirectToAction("blogarticle","home");
             }
-            return Content("hata");
+
+            HttpContext.Session.SetString("Comment", "Yorumunuz gönderilemedi");
+            return RedirectToAction("blogarticle", "home");
         }
 
         public IActionResult DeleteComment(int a)

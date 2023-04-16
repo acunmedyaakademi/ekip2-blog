@@ -2,7 +2,7 @@
 
 namespace filmblog.Controllers
 {
-    public class TestController : Controller
+    public class ErrorController : Controller
     {
         public IActionResult Index()
         {

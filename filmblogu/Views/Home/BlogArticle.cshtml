@@ -4,21 +4,6 @@
 }
 @model bool
 
-<!--
-    START: Main Page Content
-
-    Additional Classes:
-        .active
-        .nk-main-lower-title - title will be visible under content text
-
-    Additional Attributes:
-        data-transition-speed - transition speed in milliseconds
-        data-transition-in - top, bottom, right. Show transition type
-        data-transition-out - top, bottom, right. Hide transition type
-
-    Note:
-        If you don't want to show content, just remove all content inside .nano-content and inside .nk-layout and remove .active class, but don't remove this block completely
--->
 <div class="nk-main active" id="nk-main" data-transition-speed="500" data-transition-in="bottom" data-transition-out="right">
     <div class="nano">
         <div class="nano-content">
@@ -63,12 +48,9 @@
                         <li><a href="#">news</a></li>
                     </ul>
 
-
-                    <!-- START: Comments -->
                     <div class="nk-comments" id="comments">
                         <h3 class="text-main">Yorumlar</h3>
 
-                        <!-- START: Comment -->
                         <div class="nk-comment">
                             <div class="nk-comment-avatar">
                                 <a href="#"><img src="assets/images/avatar-2.jpg" alt=""></a>
@@ -81,10 +63,9 @@
                                 <p>Of. Lesser it good moved tree under living male under day The evening. Waters creeping gathered give also grass beginning.</p>
                             </div>
                         </div>
-                        <!-- END: Comment -->
+                        
                     </div>
-                    <!-- START: Reply -->
-                    @if (Model)
+                    @if (false)
                     {
                         <div class="nk-reply">
                             <h3 class="text-main">Yorumla</h3>
@@ -101,16 +82,16 @@
                                 <textarea class="form-control" name="thecomment" rows="1" placeholder="Comment"></textarea>
                                 <input type="number" class="form-control" name="UserId" placeholder="Your Name">
                                 <input type="number" class="form-control" name="FilmId" placeholder="Your Email">
-                                <button class="nk-form-btn text-main">Gönder</button>
                                 <p>@ViewBag.Comment</p>
                                 @Html.ReCaptcha()
+                                <hr>
+                                <button class="nk-form-btn text-main">Gönder</button>
+
                             </form>
                             <div class="nk-gap-2"></div>
                         </div>
-                    }
-                   
+                    }                   
                     <!-- END: Reply -->
-
                 </div>
             </div>
         </div>
