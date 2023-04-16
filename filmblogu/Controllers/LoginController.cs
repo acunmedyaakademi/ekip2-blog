@@ -1,6 +1,8 @@
 ﻿using BlogAppADO.DataAccess;
+using BlogAppADO.Models.ModelContainers;
 using filmblogu.Models;
 using Microsoft.AspNetCore.Mvc;
+using static BlogAppADO.Models.Dtos.UserDtos;
 
 namespace filmblog.Controllers
 {
@@ -17,36 +19,86 @@ namespace filmblog.Controllers
             UserDal userDal = new UserDal();
             LoginUser user = userDal.Login(model);
 
-            if(user is null)
-                return Content("Kullanıcı Adı veya Şifre Yanlış");
+            if (user is null)
+            {
+                ViewBag.hata = "Kullanıcı Adı veya Şifre Yanlış";/**/
+                return View();
+            }
 
             if (!user.MailConfirmed)
-                return Content("mailini onayla");
+            {
+                ViewBag.hata = "mailini onayla";/**/
+                return View();
+            }
 
+            HttpContext.Session.SetString("LoginId", user.Id.ToString());
             HttpContext.Session.SetString("Login", user.RoleId.ToString());
-            return RedirectToAction("index","home");
+            return RedirectToAction("index", "home");
         }
+
+        public ActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult ForgotPassword(UpdateUserMailCode model)
+        {
+            UserDal userDal = new();
+            if(userDal.UpdateUserMailCode(model))
+                return RedirectToAction("resetpassword", "login");
+
+            ViewBag.Forget = "Hata";
+            return View();
+        }
+
+
 
         public ActionResult ResetPassword()
         {
             return View();
         }
+
         [HttpPost]
-        public ActionResult ResetPassword(LoginModel model)
+        public ActionResult ResetPassword(UpdateUserPassword model)
         {
-            /*mail işlemleri yarın*/
-            UserDal userDal = new UserDal();
-            LoginUser user = userDal.Login(model);
+            UserDal userDal = new();
+            if (userDal.UpdateUserPassword(model))
+            {
+                LoginModel LoginModel = new();
+                LoginModel.Email = model.Email;
+                LoginModel.Password = model.Password;
+                LoginUser user = userDal.Login(LoginModel);
+                HttpContext.Session.SetString("LoginId", user.Id.ToString());
+                HttpContext.Session.SetString("Login", user.RoleId.ToString());
+                return RedirectToAction("index", "home");
+            }
 
-            if (user is null)
-                return Content("Kullanıcı Adı veya Şifre Yanlış");
+            ViewBag.Forget = "Hata";
+            return View();
+        }
 
-            if (!user.MailConfirmed)
-                return Content("mailini onayla");
+        public ActionResult MailConfirm()
+        {
+            return View();
+        }
 
-            HttpContext.Session.SetString("Login", user.RoleId.ToString());
+        [HttpPost]
+        public ActionResult MailConfirm(ConfirmModel Model)
+        {
+            UserDal UserDal = new UserDal();
 
-            return RedirectToAction("index", "home");
+            if (UserDal.ControlMailCode(Model))
+            {
+                if (UserDal.MailConfirm(Model.Mail))
+                {
+                    return RedirectToAction("index", "home");
+                }
+            }
+
+            ViewBag.NotConfirmed = "Mail Onaylanamadı";
+
+            return View();
         }
     }
 }

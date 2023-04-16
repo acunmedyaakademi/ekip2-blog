@@ -17,11 +17,13 @@ namespace filmblog.Models
         public string Slug { get; set; }
         [Required]
         public string Content { get; set; }
-        public string Updated_On { get; set; }
-        public string Create_On { get; set; }
+        public DateTime Updated_On { get; set; }
+        public DateTime Create_On { get; set; }
         public string Picture { get; set; }
         [Required]
         public bool Is_Active { get; set; }
+        public int? MovieMinute { get; set; }
+        public int UserID { get; set; }
 
 
     }

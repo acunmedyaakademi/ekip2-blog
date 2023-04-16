@@ -10,11 +10,11 @@
                     <h3 class="text-main">Giriş Yap</h3>
                     <form asp-action="index" asp-controller="login" class="nk-form">
                         <input type="email" class="form-control" name="email" placeholder="Email">
-                        <input type="password" class="form-control" name="password" placeholder="Şifre ">
+                        <input type="password" class="form-control" name="password" placeholder="Şifre">
+                        <p>@ViewBag.MailConfirmed</p>
                         <button class="nk-form-btn text-main">Giriş Yap</button>
-                        <button class="nk-form-btn text-main">Şifremi Unuttum</button>
-
                     </form>
+                    <button style="margin-top:10vh;" class="nk-form-btn text-main"> <a href="/login/forgotpassword"> Şifremi Unuttum</a> </button>
                     <div class="nk-gap-2"></div>
                 </div>
             </div>

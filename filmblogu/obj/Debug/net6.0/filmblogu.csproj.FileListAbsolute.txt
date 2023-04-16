@@ -71,3 +71,8 @@ C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\AspNetCore
 C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\nl\AspNetCore.ReCaptcha.resources.dll
 C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\obj\Debug\net6.0\filmblogu.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\MailKit.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\MimeKit.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
