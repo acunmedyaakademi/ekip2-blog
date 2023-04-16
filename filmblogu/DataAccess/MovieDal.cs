@@ -1,203 +1,224 @@
-﻿//using filmblog.Models;
-//using System.Data.SqlClient;
-//using System.Reflection;
+﻿using filmblog.Models;
+using System.Data.SqlClient;
+using System.Reflection;
+using static BlogAppADO.Models.Dtos.MovieDtos;
+
+namespace BlogAppADO.DataAccess
+{
+    public class MovieDal
+    {
+        public string connectionString = ConnectionString.ConnectionValue;
+
+        public List<Movie> GetAll()
+        {
+            var movieList = new List<Movie>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT id, movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id FROM movies ORDER BY created_on DESC", connection);
+                var reader = command.ExecuteReader();
 
 
-//namespace BlogAppADO.DataAccess
-//{
-//    public class MovieDal
-//    {
-//        public string connectionString = ConnectionString.ConnectionValue;
+                while (reader.Read())
+                {
+                    var movieItem = new Movie();
+                    movieItem.Id = reader.GetInt32(0);
+                    movieItem.MovieName = reader.GetString(1);
+                    movieItem.Director = reader.GetString(2);
+                    movieItem.Summary = reader.GetString(3);
+                    movieItem.Slug = reader.GetString(4);
+                    movieItem.Content = reader.GetString(5);
+                    movieItem.Create_On = reader.GetDateTime(6);
+                    movieItem.Updated_On = reader.GetDateTime(7);
+                    movieItem.Picture = reader.GetString(8);
+                    movieItem.Is_Active = reader.GetBoolean(9);
+                    movieItem.MovieMinute = reader.GetInt32(10);
+                    movieItem.UserID = reader.GetInt32(11);
 
-//        public List<Movie> GetAll()
-//        {
-//            var postList = new List<Movie>();
+                    movieList.Add(movieItem);
+                }
+            }
+            return movieList;
+        }
 
-//            using (SqlConnection connection = new SqlConnection(connectionString))
-//            {
-//                connection.Open();
-//                var command = new SqlCommand("SELECT ID, Title, Slug,Details, PhotoLink, PublishDate, UpdatedOn, UserID, CategoryID FROM ADO_Posts ORDER BY PublishDate DESC", connection);
-//                var reader = command.ExecuteReader();
+        public Movie GetPostWithId(int id)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT id, movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id FROM movies WHERE id = @id", connection);
+                command.Parameters.AddWithValue("@id", id);
+                var reader = command.ExecuteReader();
+                reader.Read();
+                var movieItem = new Movie();
+                movieItem.Id = reader.GetInt32(0);
+                movieItem.MovieName = reader.GetString(1);
+                movieItem.Director = reader.GetString(2);
+                movieItem.Summary = reader.GetString(3);
+                movieItem.Slug = reader.GetString(4);
+                movieItem.Content = reader.GetString(5);
+                movieItem.Create_On = reader.GetDateTime(6);
+                movieItem.Updated_On = reader.GetDateTime(7);
+                movieItem.Picture = reader.GetString(8);
+                movieItem.Is_Active = reader.GetBoolean(9);
+                movieItem.MovieMinute = reader.GetInt32(10);
+                movieItem.UserID = reader.GetInt32(11);
 
+                return movieItem;
+            }
+        }
 
-//                while (reader.Read())
-//                {
-//                    var postItem = new Movie();
-//                    postItem.ID = reader.GetInt32(0);
-//                    postItem.Title = reader.GetString(1);
-//                    postItem.Slug = reader.GetString(2);
-//                    postItem.Details = reader.GetString(3);
-//                    postItem.PhotoLink = reader.GetString(4);
-//                    postItem.PublishDate = reader.GetDateTime(5);
-//                    postItem.UpdatedOn = reader.GetDateTime(6);
-//                    postItem.UserID = reader.GetInt32(7);
-//                    postItem.CategoryID = reader.GetInt32(8);
+        public List<Movie> GetPostWithUserId(int userID)
+        {
+            var movieList = new List<Movie>();
 
-//                    postList.Add(postItem);
-//                }
-//            }
-//            return postList;
-//        }
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT id, movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id FROM movies WHERE user_id = @userID", connection);
+                command.Parameters.AddWithValue("@userID", userID);
+                var reader = command.ExecuteReader();
 
-//        public Movie GetPostWithId(int id)
-//        {
-//            using (SqlConnection connection = new SqlConnection(connectionString))
-//            {
-//                connection.Open();
-//                var command = new SqlCommand("SELECT ID, Title, Slug,Details, PhotoLink, PublishDate, UpdatedOn, UserID, CategoryID FROM ADO_Posts WHERE ID = @id", connection);
-//                command.Parameters.AddWithValue("@id", id);
-//                var reader = command.ExecuteReader();
-//                reader.Read();
-//                var postItem = new Movie();
-//                postItem.ID = reader.GetInt32(0);
-//                postItem.Title = reader.GetString(1);
-//                postItem.Slug = reader.GetString(2);
-//                postItem.Details = reader.GetString(3);
-//                postItem.PhotoLink = reader.GetString(4);
-//                postItem.PublishDate = reader.GetDateTime(5);
-//                postItem.UpdatedOn = reader.GetDateTime(6);
-//                postItem.UserID = reader.GetInt32(7);
-//                postItem.CategoryID = reader.GetInt32(8);
+                while (reader.Read())
+                {
+                    var movieItem = new Movie();
+                    movieItem.Id = reader.GetInt32(0);
+                    movieItem.MovieName = reader.GetString(1);
+                    movieItem.Director = reader.GetString(2);
+                    movieItem.Summary = reader.GetString(3);
+                    movieItem.Slug = reader.GetString(4);
+                    movieItem.Content = reader.GetString(5);
+                    movieItem.Create_On = reader.GetDateTime(6);
+                    movieItem.Updated_On = reader.GetDateTime(7);
+                    movieItem.Picture = reader.GetString(8);
+                    movieItem.Is_Active = reader.GetBoolean(9);
+                    movieItem.MovieMinute = reader.GetInt32(10);
+                    movieItem.UserID = reader.GetInt32(11);
 
-//                return postItem;
-//            }
-//        }
+                    movieList.Add(movieItem);
+                }
+            }
+            return movieList;
+        }
 
-//        public List<Movie> GetPostWithUserId(int userID)
-//        {
-//            var postList = new List<Movie>();
+        public Movie GetPostWithSlug(string slug)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT id, movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id FROM movies WHERE slug = @slug", connection);
+                command.Parameters.AddWithValue("@slug", slug);
+                var reader = command.ExecuteReader();
+                reader.Read();
+                var movieItem = new Movie();
+                movieItem.Id = reader.GetInt32(0);
+                movieItem.MovieName = reader.GetString(1);
+                movieItem.Director = reader.GetString(2);
+                movieItem.Summary = reader.GetString(3);
+                movieItem.Slug = reader.GetString(4);
+                movieItem.Content = reader.GetString(5);
+                movieItem.Create_On = reader.GetDateTime(6);
+                movieItem.Updated_On = reader.GetDateTime(7);
+                movieItem.Picture = reader.GetString(8);
+                movieItem.Is_Active = reader.GetBoolean(9);
+                movieItem.MovieMinute = reader.GetInt32(10);
+                movieItem.UserID = reader.GetInt32(11);
 
-//            using (SqlConnection connection = new SqlConnection(connectionString))
-//            {
-//                connection.Open();
-//                var command = new SqlCommand("SELECT ID, Title, Slug,Details, PhotoLink, PublishDate, UpdatedOn, UserID, CategoryID FROM ADO_Posts WHERE UserID = @userID", connection);
-//                command.Parameters.AddWithValue("@userID", userID);
-//                var reader = command.ExecuteReader();
+                return movieItem;
+            }
+        }
 
-//                while (reader.Read())
-//                {
-//                    var postItem = new Movie();
-//                    postItem.ID = reader.GetInt32(0);
-//                    postItem.Title = reader.GetString(1);
-//                    postItem.Slug = reader.GetString(2);
-//                    postItem.Details = reader.GetString(3);
-//                    postItem.PhotoLink = reader.GetString(4);
-//                    postItem.PublishDate = reader.GetDateTime(5);
-//                    postItem.UpdatedOn = reader.GetDateTime(6);
-//                    postItem.UserID = reader.GetInt32(7);
-//                    postItem.CategoryID = reader.GetInt32(8);
+        public bool UpdatePost(UpdateMovie movie)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
 
-//                    postList.Add(postItem);
-//                }
-//            }
-//            return postList;
-//        }
+                    var command = new SqlCommand(
+                            "UPDATE movies SET movie_name = @movieName, director = @director, summary = @summary, slug = @slug, content = @content, updated_on = @updatedOn, picture = @picture, is_active = @is_Active, movie_minute = @movieMinute WHERE id = @id",
+                            connection);
 
-//        public Movie GetPostWithSlug(string slug)
-//        {
-//            using (SqlConnection connection = new SqlConnection(connectionString))
-//            {
-//                connection.Open();
-//                var command = new SqlCommand("SELECT ID, Title, Slug,Details, PhotoLink, PublishDate, UpdatedOn, UserID, CategoryID FROM ADO_Posts WHERE Slug = @slug", connection);
-//                command.Parameters.AddWithValue("@slug", slug);
-//                var reader = command.ExecuteReader();
-//                reader.Read();
-//                var postItem = new Post();
-//                postItem.ID = reader.GetInt32(0);
-//                postItem.Title = reader.GetString(1);
-//                postItem.Slug = reader.GetString(2);
-//                postItem.Details = reader.GetString(3);
-//                postItem.PhotoLink = reader.GetString(4);
-//                postItem.PublishDate = reader.GetDateTime(5);
-//                postItem.UpdatedOn = reader.GetDateTime(6);
-//                postItem.UserID = reader.GetInt32(7);
-//                postItem.CategoryID = reader.GetInt32(8);
+                    command.Parameters.AddWithValue("@id", movie.Id);
+                    command.Parameters.AddWithValue("@movieName", movie.MovieName);
+                    command.Parameters.AddWithValue("@director", movie.Director);
+                    command.Parameters.AddWithValue("@summary", movie.Summary);
+                    command.Parameters.AddWithValue("@slug", movie.Slug);
+                    command.Parameters.AddWithValue("@content", movie.Content);
+                    command.Parameters.AddWithValue("@updatedOn", DateTime.Now);
+                    command.Parameters.AddWithValue("@picture", movie.Picture);
+                    command.Parameters.AddWithValue("@is_Active", movie.Is_Active);
+                    command.Parameters.AddWithValue("@movieMinute", movie.MovieMinute);
+                    command.ExecuteNonQuery();
 
-//                return postItem;
-//            }
-//        }
+                    return true;
 
-//        public bool UpdatePost(UpdatePost post)
-//        {
-//            using (SqlConnection connection = new SqlConnection(connectionString))
-//            {
-//                try
-//                {
-//                    connection.Open();
+                }
+                catch (Exception e)
+                {
+                    return false;
+                }
+            }
+        }
 
-//                    var command = new SqlCommand(
-//                            "UPDATE ADO_Posts SET Title = @title, Slug = @slug, Details = @details, PhotoLink = @photoLink, UpdatedOn = @updatedOn WHERE ID = @id",
-//                            connection);
+        public bool AddPost(AddMovie movie)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    connection.Open();
 
-//                    command.Parameters.AddWithValue("@id", post.ID);
-//                    command.Parameters.AddWithValue("@title", post.Title);
-//                    command.Parameters.AddWithValue("@slug", post.Slug);
-//                    command.Parameters.AddWithValue("@details", post.Details);
-//                    command.Parameters.AddWithValue("@photoLink", post.PhotoLink);
-//                    command.Parameters.AddWithValue("@updatedOn", DateTime.Now);
-//                    command.ExecuteNonQuery();
+                    var command = new SqlCommand(
+                        "INSERT INTO movies " +
+                        "(movie_name, director, summary, slug, content, created_on, updated_on, picture, is_active, movie_minute, user_id) VALUES" +
+                        "(@movieName, @director, @summary, @slug, @content, @createdOn, @updatedOn, @picture, @is_Active, @movieMinute  @userID)",
+                            connection);
 
-//                    return true;
+                    command.Parameters.AddWithValue("@movieName", movie.MovieName);
+                    command.Parameters.AddWithValue("@director", movie.Director);
+                    command.Parameters.AddWithValue("@summary", movie.Summary);
+                    command.Parameters.AddWithValue("@slug", movie.Slug);
+                    command.Parameters.AddWithValue("@content", movie.Content);
+                    command.Parameters.AddWithValue("@createdOn", DateTime.Now);
+                    command.Parameters.AddWithValue("@updatedOn", DateTime.Now);
+                    command.Parameters.AddWithValue("@picture", movie.Picture);
+                    command.Parameters.AddWithValue("@is_Active", movie.Is_Active);
+                    command.Parameters.AddWithValue("@movieMinute", movie.MovieMinute);
+                    command.Parameters.AddWithValue("@userID", movie.UserID);
 
-//                }
-//                catch (Exception e)
-//                {
-//                    return false;
-//                }
-//            }
-//        }
+                    command.ExecuteNonQuery();
 
-//        public bool AddPost(AddPost post)
-//        {
-//            using (SqlConnection connection = new SqlConnection(connectionString))
-//            {
-//                try
-//                {
-//                    connection.Open();
+                    return true;
 
-//                    var command = new SqlCommand(
-//                            "INSERT INTO ADO_Posts (Title, Slug, Details, PhotoLink, PublishDate, UpdatedOn, UserID, CategoryID) VALUES (@title, @photoLink, @details, @slug, @createdOn, @updatedOn, @userID, @categoryID)",
-//                            connection);
+                }
+                catch (Exception e)
+                {
+                    return false;
+                }
 
-//                    command.Parameters.AddWithValue("@title", post.Title);
-//                    command.Parameters.AddWithValue("@slug", post.Slug);
-//                    command.Parameters.AddWithValue("@details", post.Details);
-//                    command.Parameters.AddWithValue("@photoLink", post.PhotoLink);
-//                    command.Parameters.AddWithValue("@createdOn", DateTime.Now);
-//                    command.Parameters.AddWithValue("@updatedOn", DateTime.Now);
-//                    command.Parameters.AddWithValue("@userID", post.UserID);
-//                    command.Parameters.AddWithValue("@categoryID", post.CategoryID);
+            }
+        }
 
-//                    command.ExecuteNonQuery();
-
-//                    return true;
-
-//                }
-//                catch (Exception e)
-//                {
-//                    return false;
-//                }
-
-//            }
-//        }
-
-//        public bool DeletePostWithId(int id)
-//        {
-//            try
-//            {
-//                using (SqlConnection connection = new SqlConnection(connectionString))
-//                {
-//                    connection.Open();
-//                    var command = new SqlCommand("DELETE FROM ADO_Posts WHERE ID = @id", connection);
-//                    command.Parameters.AddWithValue("@id", id);
-//                    command.ExecuteNonQuery();
-//                }
-//                return true;
-//            }
-//            catch (Exception ex)
-//            {
-//                return false;
-//            }
-//        }
-//    }
-//}
+        public bool DeletePostWithId(int id)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    var command = new SqlCommand("DELETE FROM movies WHERE id = @id", connection);
+                    command.Parameters.AddWithValue("@id", id);
+                    command.ExecuteNonQuery();
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+    }
+}

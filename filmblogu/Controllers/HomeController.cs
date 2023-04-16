@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using filmblog.Models;
+using filmblogu.Core;
 
 namespace filmblog.Controllers;
 
@@ -15,6 +16,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        //CodeGenerator codeGenerator = new CodeGenerator();
+        //return Content(codeGenerator.RandomPassword(6));
         return View();
     }
     public IActionResult About()

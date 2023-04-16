@@ -12,7 +12,7 @@ namespace filmblog.Models
         [EmailAddress]
         [MaxLength(70)]
         public string Mail { get; set; }
-        public DateTime Mail_Sended_Time { get; }
+        public DateTime Mail_Sended_Time { get; set; }
         [Required]
         public string Mail_Code { get; set; }
         public bool Mail_Confirmed { get; set; }
