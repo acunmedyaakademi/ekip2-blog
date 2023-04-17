@@ -2,21 +2,47 @@
     ViewData["Title"] = "Üye Ol.";
 }
 
+
 <div class="nk-main active" id="nk-main" data-transition-speed="500" data-transition-in="bottom" data-transition-out="right">
     <div class="nano">
         <div class="nano-content">
             <div class="nk-vertical-top">
-                <div>
-                    <h3 class="text-main">Kayıt Ol</h3>
-                    <form asp-action="index" asp-controller="signup" class="nk-form">
-                        <input type="text" class="form-control" name="name" placeholder="Ad Soyad">
-                        <input type="email" class="form-control" name="mail" placeholder="Email">
-                        <input type="password" class="form-control" name="password" placeholder="Şifre ">
-                        <button class="nk-form-btn text-main">Kayıt Ol</button>
-                    </form>
-                    <div class="nk-gap-2"></div>
-                </div>
+
+             
+                                <div>
+                                    <h3 class="text-main">Kayıt Ol</h3>
+                                    <form asp-action="index" asp-controller="signup" class="nk-form">
+                                        <input type="text" class="form-control" name="name" placeholder="Ad Soyad">
+                                        <input type="email" class="form-control" name="mail" placeholder="Email">
+                                        <input type="password" class="form-control" name="password" placeholder="Şifre ">
+                                        <button class="nk-form-btn text-main">Kayıt Ol</button>
+                                    </form>
+                                    <div class="nk-gap-2"></div>
+                                </div>
+                       
+
+
+
             </div>
         </div>
     </div>
+    <!-- Bottom Right Info -->
+    <div class="nk-layout">
+        <div class="nk-layout-bottom-right-rotated">
+        </div>
+    </div>
 </div>
+<div class="nk-main-bg"></div>
+<!-- END: Main Page Content -->
+<!--
+    START: Blog
+
+    Additional Classes:
+        .active
+
+    Note:
+        If you don't want to show blog, just remove all content inside and remove .active class, but don't remove this block completely
+-->
+<div class="nk-blog" id="nk-blog">
+</div>
+<!-- END: Blog -->

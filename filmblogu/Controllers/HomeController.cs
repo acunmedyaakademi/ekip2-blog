@@ -33,6 +33,14 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    [HttpPost]
+    public IActionResult Contact(User user)
+    {
+        ViewBag.Message = "Önerilerin bizim için çok değerli.";
+        return View();
+    }
+
     public IActionResult BlogArticle(int id)
     {
         BlogArticleVM blogArticle = new();
@@ -55,10 +63,6 @@ public class HomeController : Controller
         return View(blogArticle);
     }
 
-    public IActionResult Studio()
-    {
-        return View();
-    }
     public IActionResult Team()
     {
         return View();

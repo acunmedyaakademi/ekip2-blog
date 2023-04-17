@@ -27,8 +27,7 @@ namespace filmblog.Controllers
 
             if (!user.MailConfirmed)
             {
-                ViewBag.hata = "mailini onayla";/**/
-                return View();
+                return RedirectToAction("MailConfirm", "login");
             }
 
             HttpContext.Session.SetString("LoginId", user.Id.ToString());

@@ -1,21 +1,9 @@
 ﻿@{
-    ViewData["Title"] = "Contact Us.";
+    ViewData["Title"] = "Bize Ulaş.";
 }
 
 <!--
-    START: Main Page Content
-
-    Additional Classes:
-        .active
-        .nk-main-lower-title - title will be visible under content text
-
-    Additional Attributes:
-        data-transition-speed - transition speed in milliseconds
-        data-transition-in - top, bottom, right. Show transition type
-        data-transition-out - top, bottom, right. Hide transition type
-
-    Note:
-        If you don't want to show content, just remove all content inside .nano-content and inside .nk-layout and remove .active class, but don't remove this block completely
+   düzenlenemcek
 -->
 <div class="nk-main nk-main-lower-title active" id="nk-main" data-transition-speed="500" data-transition-in="bottom" data-transition-out="right" data-color="#fff">
     <div class="nano">
@@ -33,28 +21,36 @@
                     </div>
 
                     <div class="nk-gap-1"></div>
-                    <div class="display-1 text-main mt-3 mb-14">+1 35 1481 527.</div>
+                    <div class="display-1 text-main mt-3 mb-14">
+                        @if (@ViewBag.Message != null)
+                        {
+                            @ViewBag.Message
+                        }
+                    </div>
 
-                    <strong>Court Avenue, United States New York 71598</strong>
+                    <strong>Falan Filan Caddesi, Bir şeyler Sokak, Nu:3 İstanbul/Beykoz </strong>
 
                     <div class="nk-gap-5"></div>
-                    <h3 class="h1 mb-18 mnt-10">Questions?</h3>
 
-                    <form action="/home/contact" class="nk-form nk-form-ajax">
+                    <h3 class="h1 mb-18 mnt-10">Bir sorun mu var? Bizimle Paylaş</h3>
+
+                    <form asp-action="Contact" asp-controller="home" method="post">
                         <div class="row vertical-gap">
                             <div class="col-md-6">
-                                <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                                <input type="text" class="form-control required" name="name" placeholder="İsim">
                             </div>
                             <div class="col-md-6">
                                 <input type="email" class="form-control required" name="email" placeholder="Email">
                             </div>
-                            @* buraya recaptcha gelecek*@
                         </div>
                         <div class="nk-gap-1"></div>
-                        <textarea class="form-control required" name="message" rows="1" placeholder="Message"></textarea>
+                        <textarea class="form-control required" name="message" rows="1" placeholder="Mesaj"></textarea>
                         <div class="nk-form-response-success"></div>
                         <div class="nk-form-response-error"></div>
-                        <button class="nk-form-btn text-main">Send</button>
+
+
+                        <button class="nk-form-btn text-main" type="submit">Gönder</button>
+
                     </form>
 
                     <div class="nk-gap-2"></div>
@@ -66,7 +62,6 @@
     <!-- Bottom Right Info -->
     <div class="nk-layout">
         <div class="nk-layout-bottom-right-rotated">
-
         </div>
     </div>
 </div>
@@ -82,6 +77,5 @@
         If you don't want to show blog, just remove all content inside and remove .active class, but don't remove this block completely
 -->
 <div class="nk-blog" id="nk-blog">
-
 </div>
 <!-- END: Blog -->

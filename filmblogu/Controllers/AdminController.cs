@@ -9,101 +9,168 @@ namespace filmblogu.Controllers
         /*yarın yetkinelndrime yap*/
         public IActionResult Index()
         {
-            MovieDal movieDal = new();
 
-            return View(movieDal.GetAll());
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                MovieDal movieDal = new();
+
+                return View(movieDal.GetAll());
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         public IActionResult AcceptComment()
         {
-            CommentDal commentDal = new();
-            return View(commentDal.GetCommentsUnAccepted());
+
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                CommentDal commentDal = new();
+                return View(commentDal.GetCommentsUnAccepted());
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
 
         public IActionResult CommentAccepted(int a, bool delete)
         {
-
-            CommentDal commentDal = new();
-            if (delete)
+            if (HttpContext.Session.GetString("Login") == "3")
             {
-                commentDal.DeleteComment(a);
-                return Content("silindi");
+                CommentDal commentDal = new();
+                if (delete)
+                {
+                    commentDal.DeleteComment(a);
+                    return Content("silindi");
 
+                }
+                commentDal.AcceptComment(a);
+
+                return RedirectToAction("AcceptComment");
             }
-            commentDal.AcceptComment(a);
+            return RedirectToAction("", "YetkisizErişim");
 
-            return RedirectToAction("AcceptComment");
         }
         public IActionResult DeleteMovie()
         {
-            return View();
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                return View();
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         public IActionResult MovieDelete(int a)
         {
-            MovieDal movieDal = new();
-            movieDal.DeletePostWithId(a);
-            return RedirectToAction("DeleteMovie");
+
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                MovieDal movieDal = new();
+                movieDal.DeletePostWithId(a);
+                return RedirectToAction("DeleteMovie");
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         public IActionResult UpdateRole(int id, int roleid)
         {
+            
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                UserDal userDal = new();
+                if (userDal.UpdateUserRole(id, roleid))
+                    return RedirectToAction("AllUsers");
 
-            UserDal userDal = new();
-            if (userDal.UpdateUserRole(id, roleid))
-                return RedirectToAction("AllUsers");
-
-            return RedirectToAction("","hata");
+                return RedirectToAction("", "hata");
+            }
+            return RedirectToAction("", "YetkisizErişim");
         }
 
         public IActionResult AllUsers()
         {
-            UserDal userDal = new();
-            return View(userDal.GetAll());
+
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                UserDal userDal = new();
+                return View(userDal.GetAll());
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         public IActionResult DeleteUser(int id)
         {
-            UserDal userDal = new();
-            if (userDal.DeleteUserWithId(id))
-            return RedirectToAction("AllUsers");
-            return RedirectToAction("", "hata");
+
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                UserDal userDal = new();
+                if (userDal.DeleteUserWithId(id))
+                    return RedirectToAction("AllUsers");
+
+                return RedirectToAction("", "hata");
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         public IActionResult UpdateMovie(int a)
         {
-            MovieDal movieDal = new MovieDal();
 
-            return View(movieDal.GetPostWithId(a));
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                MovieDal movieDal = new MovieDal();
+
+                return View(movieDal.GetPostWithId(a));
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         [HttpPost]
         public IActionResult UpdateMovie(Movie Movie)
         {
-            MovieDal movieDal = new MovieDal();
 
-            Movie.Updated_On = DateTime.Now;
-            Movie.Picture = "yok";
-            movieDal.UpdatePost(Movie);
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                MovieDal movieDal = new MovieDal();
 
-            return RedirectToAction("index","admin");
+                Movie.Updated_On = DateTime.Now;
+                Movie.Picture = "yok";
+                movieDal.UpdatePost(Movie);
+
+                return RedirectToAction("index", "admin");
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
         public IActionResult AddMovie()
         {
-            return View();
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                return View();
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
         [HttpPost]
         public IActionResult AddMovie(Movie Movie)
         {
-            MovieDal movieDal = new();
-            Movie.Updated_On= DateTime.Now;
-            Movie.Create_On= DateTime.Now;
-            Movie.Picture = "yok";
-            Movie.Is_Active= true;
-            movieDal.AddPost(Movie);
-            return View();
+
+            if (HttpContext.Session.GetString("Login") == "3")
+            {
+                MovieDal movieDal = new();
+                Movie.Updated_On = DateTime.Now;
+                Movie.Create_On = DateTime.Now;
+                Movie.Picture = "yok";
+                Movie.Is_Active = true;
+                movieDal.AddPost(Movie);
+                return View();
+            }
+            return RedirectToAction("", "YetkisizErişim");
+
         }
 
 
