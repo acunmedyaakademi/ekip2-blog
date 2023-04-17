@@ -12,6 +12,13 @@ namespace filmblog.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public ActionResult Logout()
+        {
+            HttpContext.Session.Remove("Login");
+
+            return RedirectToAction("Index", "Home");
+        }
 
         [HttpPost]
         public ActionResult Index(LoginModel model)

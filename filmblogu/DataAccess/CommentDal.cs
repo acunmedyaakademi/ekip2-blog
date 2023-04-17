@@ -14,7 +14,8 @@ namespace BlogAppADO.DataAccess
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                var command = new SqlCommand("select c.id, comment, date, c.user_id, c.film_id, name, m.movie_name from comments as c join users as u on u.id = u.id join movies as m on c.film_id = m.id where c.film_id = @film_id", connection);
+                var command = new SqlCommand("select c.id, comment, date, c.user_id, c.film_id, name, m.movie_name from comments as c join users as u on c.user_id = u.id join movies as m on c.film_id = m.id where c.film_id = @film_id and c.is_active = 1", connection);
+
                 command.Parameters.AddWithValue("@film_id", a);
 
                 var reader = command.ExecuteReader();
@@ -43,7 +44,7 @@ namespace BlogAppADO.DataAccess
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                var command = new SqlCommand("select c.id, comment, date, c.user_id, c.film_id, name, m.movie_name from comments as c join users as u on u.id = u.id join movies as m on c.film_id = m.id where c.is_active = 0", connection);
+                var command = new SqlCommand("select c.id, comment, date, c.user_id, c.film_id, name, m.movie_name from comments as c join users as u on c.user_id = u.id join movies as m on c.film_id = m.id where c.is_active = 0", connection);
                 var reader = command.ExecuteReader();
 
                 while (reader.Read())

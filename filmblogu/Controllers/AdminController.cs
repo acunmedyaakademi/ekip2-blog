@@ -10,7 +10,7 @@ namespace filmblogu.Controllers
         public IActionResult Index()
         {
 
-            if (HttpContext.Session.GetString("Login") == "3")
+            if (HttpContext.Session.GetString("Login") != "1" && HttpContext.Session.GetString("Login") != null)
             {
                 MovieDal movieDal = new();
 
@@ -23,7 +23,7 @@ namespace filmblogu.Controllers
         public IActionResult AcceptComment()
         {
 
-            if (HttpContext.Session.GetString("Login") == "3")
+            if (HttpContext.Session.GetString("Login") != "1" && HttpContext.Session.GetString("Login") != null)
             {
                 CommentDal commentDal = new();
                 return View(commentDal.GetCommentsUnAccepted());
@@ -35,7 +35,7 @@ namespace filmblogu.Controllers
 
         public IActionResult CommentAccepted(int a, bool delete)
         {
-            if (HttpContext.Session.GetString("Login") == "3")
+            if (HttpContext.Session.GetString("Login") != "1" && HttpContext.Session.GetString("Login") != null)
             {
                 CommentDal commentDal = new();
                 if (delete)
@@ -147,7 +147,7 @@ namespace filmblogu.Controllers
         }
         public IActionResult AddMovie()
         {
-            if (HttpContext.Session.GetString("Login") == "3")
+            if (HttpContext.Session.GetString("Login") != "1" && HttpContext.Session.GetString("Login") != null)
             {
                 return View();
             }
@@ -159,7 +159,7 @@ namespace filmblogu.Controllers
         public IActionResult AddMovie(Movie Movie)
         {
 
-            if (HttpContext.Session.GetString("Login") == "3")
+            if (HttpContext.Session.GetString("Login") != "1" && HttpContext.Session.GetString("Login") != null)
             {
                 MovieDal movieDal = new();
                 Movie.Updated_On = DateTime.Now;

@@ -17,9 +17,9 @@ namespace filmblog.Models
 
         public string TheComment{ get; set; }
 
-        public string name { get; set; }
+        public string? name { get; set; }
 
-        public string MovieName  { get; set; }
+        public string? MovieName  { get; set; }
 
     }
 

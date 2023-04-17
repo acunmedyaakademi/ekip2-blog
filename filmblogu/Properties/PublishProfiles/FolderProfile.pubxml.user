@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\yunus\Desktop\FilmBlogu\filmblogu\filmblogu\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-04-17T01:16:37.9465518Z;True|2023-04-17T03:52:43.1951674+03:00;True|2023-04-17T03:38:32.9403053+03:00;True|2023-04-17T03:37:21.0648659+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="wwwroot/assets/css/bootstrap-custom.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/bootstrap-custom.min.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/comment.css">
+      <publishTime>04/09/2023 19:09:41</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/custom.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/index.css">
+      <publishTime>04/10/2023 00:29:21</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/mainpage.css">
+      <publishTime>03/25/2023 16:31:18</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/site.css">
+      <publishTime>03/31/2023 15:44:29</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/umbrella.css">
+      <publishTime>04/15/2023 17:17:09</publishTime>
+    </File>
+    <File Include="wwwroot/assets/css/umbrella.min.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-1-sm.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-1.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-2-sm.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-2.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-3-sm.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-3.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-4-sm.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-4.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-5-sm.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/avatar-5.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/bg-menu.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/blog-article.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-about.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-article.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-blog.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-contact.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-main.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-studio.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/demo-video.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/dogville.png">
+      <publishTime>04/14/2023 16:08:44</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/favicon.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/logo-dark.png">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/logo.png">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-1-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-1-video.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-1.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-10.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-11.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-12.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-13.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-14.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-15.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-16.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-17.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-2-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-2-video.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-2.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-3-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-3-video.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-3.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-4-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-4.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-5-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-5.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-6-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-6.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-7-light.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-7.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-8.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/slide-9.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/soysuzlarcetesi.png">
+      <publishTime>04/14/2023 15:43:31</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/team-member-1.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/team-member-2.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/team-member-3.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/team-member-4.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/bootstrap-custom.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/bootstrap-custom.min.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/custom.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/site.js">
+      <publishTime>03/22/2023 03:11:31</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/icons/default/icons.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/langs/README.md">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/license.txt">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/models/dom/model.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/advlist/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/anchor/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/autolink/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/autoresize/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/autosave/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/charmap/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/code/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/codesample/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/directionality/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/emoticons/js/emojiimages.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/emoticons/js/emojiimages.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/emoticons/js/emojis.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/emoticons/js/emojis.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/emoticons/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/fullscreen/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/help/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/image/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/importcss/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/insertdatetime/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/link/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/lists/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/media/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/nonbreaking/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/pagebreak/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/preview/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/quickbars/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/save/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/searchreplace/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/table/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/template/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/visualblocks/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/visualchars/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/plugins/wordcount/plugin.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/content/dark/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/content/default/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/content/document/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/content/tinymce-5-dark/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/content/tinymce-5/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/content/writer/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide-dark/content.inline.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide-dark/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide-dark/skin.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide-dark/skin.shadowdom.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide/content.inline.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide/skin.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/oxide/skin.shadowdom.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5-dark/content.inline.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5-dark/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5-dark/skin.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5-dark/skin.shadowdom.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5/content.inline.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5/content.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5/skin.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/skins/ui/tinymce-5/skin.shadowdom.min.css">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/themes/silver/theme.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/tinymce.d.ts">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/tinymce/tinymce.min.js">
+      <publishTime>03/29/2023 01:27:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/umbrella-init.js">
+      <publishTime>04/16/2023 19:32:42</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/umbrella.js">
+      <publishTime>04/16/2023 19:32:42</publishTime>
+    </File>
+    <File Include="wwwroot/assets/js/umbrella.min.js">
+      <publishTime>04/16/2023 19:32:08</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/background-check.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/background-check.min.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/bower.json">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/canvas.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/cross-origin-css.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/cross-origin.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/css-backgrounds-fullscreen.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/css-backgrounds.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/fixed-nav.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/flexslider-fade.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/flexslider.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/1.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/2.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/3.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/4.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/5.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/6.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/7.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/8.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/9.jpg">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/images/credits.txt">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/index.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/require-js.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/canvas.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/cross-origin-css.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/cross-origin.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/css-backgrounds.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/drag.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/fixed-nav.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/jquery.flexslider.min.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/main.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/require-main.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/require.min.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/scripts/slider.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/slider.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/styles/examples.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/styles/normalize.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/styles/slider.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/build/zindex.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/data/navigation.json">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/layouts/default.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/canvas.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/cross-origin-css.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/cross-origin.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/css-backgrounds-fullscreen.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/css-backgrounds.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/fixed-nav.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/flexslider-fade.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/flexslider.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/index.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/require-js.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/slider.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/pages/zindex.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/download.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/drag.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/footer.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/ga.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/header.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/nav.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/targets-fixed.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/examples/src/partials/targets.hbs">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/Gruntfile.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/LICENSE">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/package.json">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/README.md">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/css-backgrounds-expected.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/data-uri-example.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/index.html">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/qunit.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/qunit.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/sinon-qunit.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/sinon.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test-attributes.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test-canvas.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test-classes.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test-css-backgrounds.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test-delayed-loading.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test-zindex.js">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/plugins/background-check/test/test.css">
+      <publishTime>12/26/2018 06:50:26</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cbvGuzDzjzR+qSv1XarxJNTQGYYI7vN6/MN/W6aWEMmZ9c1tw0XF1ldmH2Zs7fCZzrGtQUGnWbXyEwjJzFDFQ==",
+  "dgSpecHash": "QL59Z/fa7H+/1tjK005e7/SpxhW8wxoEmkJICWiPQ/i5tZDKW/AYqOZIHvGBllqPLiqn6jG/0jDzx0iiU9GmHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj",
+  "projectFilePath": "C:\\Users\\yunus\\Desktop\\grup ödevi şeyler\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yunus\\.nuget\\packages\\aspnetcore.recaptcha\\1.7.0\\aspnetcore.recaptcha.1.7.0.nupkg.sha512",
     "C:\\Users\\yunus\\.nuget\\packages\\bouncycastle.cryptography\\2.1.1\\bouncycastle.cryptography.2.1.1.nupkg.sha512",

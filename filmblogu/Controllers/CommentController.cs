@@ -16,7 +16,8 @@ namespace filmblogu.Controllers
             {
                 HttpContext.Session.SetString("Comment", "Yorumunuz gönderildi");
 
-                return NoContent();
+                string url = "/home/blogarticle?id=" + comment.FilmId;
+                return Redirect(url);
             }
 
             HttpContext.Session.SetString("Comment", "Yorumunuz gönderilemedi");

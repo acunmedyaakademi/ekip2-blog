@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj": {}
+    "C:\\Users\\yunus\\Desktop\\grup ödevi şeyler\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj": {
+    "C:\\Users\\yunus\\Desktop\\grup ödevi şeyler\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj",
+        "projectUniqueName": "C:\\Users\\yunus\\Desktop\\grup ödevi şeyler\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj",
         "projectName": "filmblogu",
-        "projectPath": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj",
+        "projectPath": "C:\\Users\\yunus\\Desktop\\grup ödevi şeyler\\FilmBlogu\\filmblogu\\filmblogu\\filmblogu.csproj",
         "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yunus\\Desktop\\FilmBlogu\\filmblogu\\filmblogu\\obj\\",
+        "outputPath": "C:\\Users\\yunus\\Desktop\\grup ödevi şeyler\\FilmBlogu\\filmblogu\\filmblogu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

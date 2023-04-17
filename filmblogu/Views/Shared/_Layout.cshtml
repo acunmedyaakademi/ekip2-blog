@@ -10,24 +10,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <title>Umbrella. | @ViewData["Title"]</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.jpg">
+    <link rel="icon" type="image/png" href="/assets/images/favicon.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/gh/yeikos/jquery.history/jquery.history.js"></script>
+
+    <script>
+
+        $(function () {
+
+            $.history.on('load change push pushed', function (event, url, type) {
+
+                alert(event.type + ': ' + url);
+
+            }).listen('hash');
+
+            $('body').on('click', 'a', function (event) {
+
+                $.history.push($(this).attr('href'));
+
+                event.preventDefault();
+
+            });
+
+            $('button').click(function () {
+
+                location.reload();
+
+            });
+
+        });
+
+    </script>
     <!-- START: Styles -->
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,700" rel="stylesheet">
 
     <!-- Bootstrap Custom -->
-    <link rel="stylesheet" href="/assets/css/bootstrap-custom.min.css">
+    <link rel="stylesheet" href="~/assets/css/bootstrap-custom.min.css">
 
     <!-- Umbrella -->
-    <link rel="stylesheet" href="/assets/css/umbrella.css">
+    <link rel="stylesheet" href="~/assets/css/umbrella.css">
 
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="~/assets/css/custom.css">
 
     <!-- END: Styles -->
     <!-- jQuery -->
-    <script src="/assets/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="~/assets/digerseyler/jquery/dist/jquery.min.js"></script>
 
 </head>
 
@@ -75,7 +105,7 @@
                 <img src="https://images.squarespace-cdn.com/content/v1/610ecf58f3b3f02e55cf3c3f/28979196-0861-46e7-9d6e-52cde206ce35/Screen+Shot+2021-11-21+at+19.59.08.png" alt="">
             </div>
             <div class="nk-slider-item" data-categories="Filmler" data-background-position="50% 10%">
-                <img src="/assets/images/soysuzlarcetesi.png" alt="">
+                <img src="~/assets/images/soysuzlarcetesi.png" alt="">
             </div>
             <div class="nk-slider-item" data-categories="Diziler" data-background-position="50% 10%">
                 <img src=" https://i.hizliresim.com/jjsjr2l.png" alt="">
@@ -127,7 +157,7 @@
         <div class="nk-layout-top-left">
 
             <a href="/" class="nk-nav-logo">
-                <img src="/assets/images/logo.png" alt="" width="133" data-logo-dark="assets/images/logo-dark.png">
+                <img src="~/assets/images/logo.png" alt="" width="133" data-logo-dark="/assets/images/logo-dark.png">
             </a>
 
 
@@ -146,6 +176,21 @@
                             <li>
                                 <a href="/signup">Kayıt Ol</a>
                             </li>
+                        </ul>
+                    </nav>
+                </div>
+            }
+            else
+            {
+                <div class="nk-layout-top-left-rotated">
+                    <nav class="nk-nav">
+                        <ul>
+                            <li>
+                                <form action="/login/logout" method="post">
+                                    <button type="submit" class="logout-button">Çıkış Yap</button>
+                                </form>
+                            </li>
+                            
                         </ul>
                     </nav>
                 </div>
@@ -247,37 +292,37 @@
 
     <!-- START: Scripts -->
     <!-- GSAP -->
-    <script src="/assets/bower_components/gsap/src/minified/TweenMax.min.js"></script>
-    <script src="/assets/bower_components/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
+    <script src="~/assets/digerseyler/gsap/src/minified/TweenMax.min.js"></script>
+    <script src="~/assets/digerseyler/gsap/src/minified/plugins/ScrollToPlugin.min.js"></script>
 
     <!-- History.js -->
-    <script src="/assets/bower_components/history.js/scripts/bundled/html4%2Bhtml5/jquery.history.js"></script>
+    <script src="~/assets/js/jquery.history.js"></script>
 
     <!-- Bootstrap Custom -->
-    <script src="/assets/js/bootstrap-custom.min.js"></script>
+    <script src="~/assets/js/bootstrap-custom.min.js"></script>
 
     <!-- Jquery Form -->
-    <script src="/assets/bower_components/jquery-form/jquery.form.js"></script>
+    <script src="~/assets/digerseyler/jquery-form/jquery.form.js"></script>
 
     <!-- Jquery Validation -->
-    <script src="/assets/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/assets/digerseyler/jquery-validation/dist/jquery.validate.min.js"></script>
 
     <!-- Hammer.js -->
-    <script src="/assets/bower_components/hammer.js/hammer.min.js"></script>
+    <script src="~/assets/digerseyler/hammer.js/hammer.min.js"></script>
 
     <!-- NanoSroller -->
-    <script src="/assets/bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js"></script>
+    <script src="~/assets/js/jquery.nanoscroller.min.js"></script>
 
     <!-- Background Check Custom -->
-    <script src="/assets/plugins/background-check/background-check.min.js"></script>
+    <script src="~/assets/plugins/background-check/background-check.min.js"></script>
 
     @* <!-- Jarallax Video -->
-    <script src="/assets/bower_components/jarallax/dist/jarallax-video.min.js"></script>*@
+    <script src="~/assets/digerseyler/jarallax/dist/jarallax-video.min.js"></script>*@
 
     <!-- Umbrella -->
     <script src="~/assets/js/umbrella.js"></script>
-    <script src="/assets/js/custom.js"></script>
-    <script src="/assets/js/umbrella-init.js"></script>
+    <script src="~/assets/js/custom.js"></script>
+    <script src="~/assets/js/umbrella-init.js"></script>
     <!-- END: Scripts -->
     @await RenderSectionAsync("Scripts", required: false)
 
